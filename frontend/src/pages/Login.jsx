@@ -24,8 +24,10 @@ export default function Login() {
     setError("");
     setLoading(true);
     try {
-      await login(data.username, data.password);
-      navigate("/dashboard");
+      const result = await login(data.username, data.password);
+      // Customers land directly in the AI Assistant — their only
+      // available feature. Everyone else goes to the staff dashboard.
+      navigate(result.role === "customer" ? "/customer/chat" : "/dashboard");
     } catch (e) {
       setError(e.response?.data?.detail || "Login failed");
     } finally {

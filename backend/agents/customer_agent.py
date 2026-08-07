@@ -5,6 +5,16 @@ from services import data_loader as dl
 from services.faq_service import FAQService
 from services.transaction_service import TransactionService
 
+try:
+    # Optional: local, no-vector-DB historical knowledge layer
+    # (mock_data/*.json). If it's not present yet, the agent simply
+    # falls back to its existing behavior — this import is never
+    # required for the agent to function.
+    from knowledge.knowledge_search import search as knowledge_search
+    _KNOWLEDGE_LAYER_AVAILABLE = True
+except ImportError:
+    _KNOWLEDGE_LAYER_AVAILABLE = False
+
 logger = logging.getLogger("banking_ai_platform")
 
 
@@ -127,9 +137,38 @@ class CustomerSupportAgent(BaseAgent):
         if intent == "policy inquiry":
             faq_matches = FAQService.search(text)
             top = faq_matches[0] if faq_matches else None
-            return {"source": "faq.json", "summary": top["answer"] if top else "No policy answer found."}
+            if top:
+                return {"source": "faq.json", "summary": top["answer"]}
+            return self._knowledge_fallback(text, collections=["policies", "faq"])
 
-        return {"source": None, "summary": "No extra account context was needed."}
+        # Generic fallback: for anything not covered by a structured
+        # service above (loan/complaint/greeting/etc.), check the local
+        # historical knowledge base (mock_data/*.json) before giving up.
+        return self._knowledge_fallback(text)
+
+    def _knowledge_fallback(self, text: str, collections: list = None) -> dict:
+        """Look up relevant historical records via the local, no-vector-DB
+        knowledge layer (knowledge/knowledge_search.py). Safe no-op if
+        that module isn't installed or nothing relevant is found."""
+        if not _KNOWLEDGE_LAYER_AVAILABLE:
+            return {"source": None, "summary": "No extra account context was needed."}
+        try:
+            results = knowledge_search(text, top_k=2, collections=collections)
+        except Exception:
+            logger.exception("knowledge_fallback: search failed")
+            return {"source": None, "summary": "No extra account context was needed."}
+        if not results:
+            return {"source": None, "summary": "No extra account context was needed."}
+        best = results[0].record
+        summary = best.text[:300]
+        if len(best.text) > 300:
+            summary += "..."
+        return {
+            "source": best.source,
+            "summary": summary,
+            "grounded_in_trained_data": True,
+            "confidence": results[0].score,
+        }
 
     def _build_prompt(self, text: str, intent: str, context: dict, history: list):
         history_text = "\n".join(f"{item['role']}: {item['content']}" for item in history[-4:])

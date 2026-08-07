@@ -12,7 +12,8 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 120
 # Demo users. In production this would come from an identity provider / user DB.
 DEMO_USERS = {
     "admin": {"password": "admin123", "role": "supervisor", "customer_id": None},
-    "customer": {"password": "customer123", "role": "customer", "customer_id": "CUST0001"},
+    "customer": {"password": "customer123", "role": "customer", "customer_id": "CUST0001"},\
+    "customer1": {"password": "customer123", "role": "customer", "customer_id": "CUST0002"},
 }
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login", auto_error=False)
