@@ -1,5 +1,825 @@
 [
   {
+    "alert_id": "ALERT0121",
+    "transaction_id": "TXN89755",
+    "customer_id": "CUST0088",
+    "customer_name": "Christine Parker",
+    "risk_score": 72,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-07-11T21:33:40.228179",
+    "factors": {
+      "amount": 2131.03,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 6
+    },
+    "supervisor_action": "Manual resolution by ADMIN004: Manual card unblock after customer callback",
+    "resolved_by": "manual",
+    "supervisor_note": "Admin validated customer voice challenge and device fingerprint before unblocking card.",
+    "customer_interaction": {
+      "channel": "voice_call",
+      "summary": "Customer engaged with supervisor and provided confirmation artifacts for manual review.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN004",
+      "review_type": "manual_supervisor_review",
+      "review_outcome": "resolved",
+      "notes": "Admin completed manual verification checklist and closed the alert."
+    },
+    "action_at": "2026-07-11T23:25:40.228179",
+    "resolved_at": "2026-07-11T23:25:40.228179"
+  },
+  {
+    "alert_id": "ALERT0122",
+    "transaction_id": "TXN85091",
+    "customer_id": "CUST0066",
+    "customer_name": "Jesus Brown",
+    "risk_score": 82,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-07-17T12:11:40.228179",
+    "factors": {
+      "amount": 3167.39,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 2
+    },
+    "supervisor_action": "Manual resolution by ADMIN001: Manual transaction release",
+    "resolved_by": "manual",
+    "supervisor_note": "Admin reviewed transaction context with customer and approved after additional checks.",
+    "customer_interaction": {
+      "channel": "chat",
+      "summary": "Customer engaged with supervisor and provided confirmation artifacts for manual review.",
+      "customer_confirmation": "needs_followup"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN001",
+      "review_type": "manual_supervisor_review",
+      "review_outcome": "resolved",
+      "notes": "Admin completed manual verification checklist and closed the alert."
+    },
+    "action_at": "2026-07-17T13:40:40.228179",
+    "resolved_at": "2026-07-17T13:40:40.228179"
+  },
+  {
+    "alert_id": "ALERT0123",
+    "transaction_id": "TXN88060",
+    "customer_id": "CUST0028",
+    "customer_name": "Katherine Weaver",
+    "risk_score": 98,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-07-18T10:30:40.228179",
+    "factors": {
+      "amount": 3117.94,
+      "location": "India",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 3
+    },
+    "supervisor_action": "Manual resolution by ADMIN004: Manual hold extension",
+    "resolved_by": "manual",
+    "supervisor_note": "Admin extended hold while customer provided delayed travel and business proof.",
+    "customer_interaction": {
+      "channel": "email",
+      "summary": "Customer engaged with supervisor and provided confirmation artifacts for manual review.",
+      "customer_confirmation": "needs_followup"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN004",
+      "review_type": "manual_supervisor_review",
+      "review_outcome": "resolved",
+      "notes": "Admin completed manual verification checklist and closed the alert."
+    },
+    "action_at": "2026-07-18T12:02:40.228179",
+    "resolved_at": "2026-07-18T12:02:40.228179"
+  },
+  {
+    "alert_id": "ALERT0124",
+    "transaction_id": "TXN84238",
+    "customer_id": "CUST0081",
+    "customer_name": "Darryl Davis",
+    "risk_score": 81,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-28T12:43:40.228179",
+    "factors": {
+      "amount": 538.8,
+      "location": "Germany",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 5
+    },
+    "supervisor_action": "Manual resolution by ADMIN002: Manual compliance closure",
+    "resolved_by": "manual",
+    "supervisor_note": "Admin and compliance analyst validated source-of-funds and closed alert manually.",
+    "customer_interaction": {
+      "channel": "email",
+      "summary": "Customer engaged with supervisor and provided confirmation artifacts for manual review.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN002",
+      "review_type": "manual_supervisor_review",
+      "review_outcome": "resolved",
+      "notes": "Admin completed manual verification checklist and closed the alert."
+    },
+    "action_at": "2026-06-28T14:45:40.228179",
+    "resolved_at": "2026-06-28T14:45:40.228179"
+  },
+  {
+    "alert_id": "ALERT0125",
+    "transaction_id": "TXN87551",
+    "customer_id": "CUST0088",
+    "customer_name": "Christine Parker",
+    "risk_score": 70,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-16T12:09:40.228179",
+    "factors": {
+      "amount": 1510.99,
+      "location": "Mexico",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 4
+    },
+    "supervisor_action": "Manual resolution by ADMIN002: Manual card unblock after customer callback",
+    "resolved_by": "manual",
+    "supervisor_note": "Admin validated customer voice challenge and device fingerprint before unblocking card.",
+    "customer_interaction": {
+      "channel": "voice_call",
+      "summary": "Customer engaged with supervisor and provided confirmation artifacts for manual review.",
+      "customer_confirmation": "needs_followup"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN002",
+      "review_type": "manual_supervisor_review",
+      "review_outcome": "resolved",
+      "notes": "Admin completed manual verification checklist and closed the alert."
+    },
+    "action_at": "2026-06-16T14:05:40.228179",
+    "resolved_at": "2026-06-16T14:05:40.228179"
+  },
+  {
+    "alert_id": "ALERT0126",
+    "transaction_id": "TXN88668",
+    "customer_id": "CUST0058",
+    "customer_name": "Sherri Smith",
+    "risk_score": 87,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-20T02:53:40.228179",
+    "factors": {
+      "amount": 5279.28,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 5
+    },
+    "supervisor_action": "Manual resolution by ADMIN002: Manual transaction release",
+    "resolved_by": "manual",
+    "supervisor_note": "Admin reviewed transaction context with customer and approved after additional checks.",
+    "customer_interaction": {
+      "channel": "chat",
+      "summary": "Customer engaged with supervisor and provided confirmation artifacts for manual review.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN002",
+      "review_type": "manual_supervisor_review",
+      "review_outcome": "resolved",
+      "notes": "Admin completed manual verification checklist and closed the alert."
+    },
+    "action_at": "2026-06-20T04:56:40.228179",
+    "resolved_at": "2026-06-20T04:56:40.228179"
+  },
+  {
+    "alert_id": "ALERT0127",
+    "transaction_id": "TXN87049",
+    "customer_id": "CUST0088",
+    "customer_name": "Christine Parker",
+    "risk_score": 87,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-15T23:21:40.228179",
+    "factors": {
+      "amount": 6137.6,
+      "location": "India",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 6
+    },
+    "supervisor_action": "Manual resolution by ADMIN001: Manual hold extension",
+    "resolved_by": "manual",
+    "supervisor_note": "Admin extended hold while customer provided delayed travel and business proof.",
+    "customer_interaction": {
+      "channel": "chat",
+      "summary": "Customer engaged with supervisor and provided confirmation artifacts for manual review.",
+      "customer_confirmation": "disputed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN001",
+      "review_type": "manual_supervisor_review",
+      "review_outcome": "resolved",
+      "notes": "Admin completed manual verification checklist and closed the alert."
+    },
+    "action_at": "2026-06-15T23:39:40.228179",
+    "resolved_at": "2026-06-15T23:39:40.228179"
+  },
+  {
+    "alert_id": "ALERT0128",
+    "transaction_id": "TXN88316",
+    "customer_id": "CUST0028",
+    "customer_name": "Katherine Weaver",
+    "risk_score": 97,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-07-12T03:09:40.228179",
+    "factors": {
+      "amount": 8152.0,
+      "location": "India",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 4
+    },
+    "supervisor_action": "Manual resolution by ADMIN003: Manual compliance closure",
+    "resolved_by": "manual",
+    "supervisor_note": "Admin and compliance analyst validated source-of-funds and closed alert manually.",
+    "customer_interaction": {
+      "channel": "email",
+      "summary": "Customer engaged with supervisor and provided confirmation artifacts for manual review.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN003",
+      "review_type": "manual_supervisor_review",
+      "review_outcome": "resolved",
+      "notes": "Admin completed manual verification checklist and closed the alert."
+    },
+    "action_at": "2026-07-12T05:16:40.228179",
+    "resolved_at": "2026-07-12T05:16:40.228179"
+  },
+  {
+    "alert_id": "ALERT0129",
+    "transaction_id": "TXN88850",
+    "customer_id": "CUST0081",
+    "customer_name": "Darryl Davis",
+    "risk_score": 88,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-07-14T00:12:40.228179",
+    "factors": {
+      "amount": 8536.36,
+      "location": "Brazil",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 4
+    },
+    "supervisor_action": "Manual resolution by ADMIN004: Manual card unblock after customer callback",
+    "resolved_by": "manual",
+    "supervisor_note": "Admin validated customer voice challenge and device fingerprint before unblocking card.",
+    "customer_interaction": {
+      "channel": "chat",
+      "summary": "Customer engaged with supervisor and provided confirmation artifacts for manual review.",
+      "customer_confirmation": "disputed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN004",
+      "review_type": "manual_supervisor_review",
+      "review_outcome": "resolved",
+      "notes": "Admin completed manual verification checklist and closed the alert."
+    },
+    "action_at": "2026-07-14T01:32:40.228179",
+    "resolved_at": "2026-07-14T01:32:40.228179"
+  },
+  {
+    "alert_id": "ALERT0130",
+    "transaction_id": "TXN81064",
+    "customer_id": "CUST0008",
+    "customer_name": "Michelle Moore",
+    "risk_score": 88,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-07-04T08:18:40.228179",
+    "factors": {
+      "amount": 6625.67,
+      "location": "Germany",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 3
+    },
+    "supervisor_action": "Manual resolution by ADMIN004: Manual transaction release",
+    "resolved_by": "manual",
+    "supervisor_note": "Admin reviewed transaction context with customer and approved after additional checks.",
+    "customer_interaction": {
+      "channel": "voice_call",
+      "summary": "Customer engaged with supervisor and provided confirmation artifacts for manual review.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN004",
+      "review_type": "manual_supervisor_review",
+      "review_outcome": "resolved",
+      "notes": "Admin completed manual verification checklist and closed the alert."
+    },
+    "action_at": "2026-07-04T09:52:40.228179",
+    "resolved_at": "2026-07-04T09:52:40.228179"
+  },
+  {
+    "alert_id": "ALERT0101",
+    "transaction_id": "TXN99856",
+    "customer_id": "CUST0049",
+    "customer_name": "Rebecca Hicks",
+    "risk_score": 86,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-07-10T03:06:24.017279",
+    "factors": {
+      "amount": 8091.4,
+      "location": "India",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 5
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: merchant mcc risk spike control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI identified abnormal spend at high-risk MCC combined with off-hour activity and applied temporary spend controls pending customer confirmation.",
+    "supervisor_note": "Automated closure for Merchant MCC Risk Spike.",
+    "action_at": "2026-07-10T04:08:24.017279",
+    "resolved_at": "2026-07-10T04:08:24.017279"
+  },
+  {
+    "alert_id": "ALERT0102",
+    "transaction_id": "TXN97209",
+    "customer_id": "CUST0038",
+    "customer_name": "Kathryn Whitaker",
+    "risk_score": 97,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-14T08:18:24.017279",
+    "factors": {
+      "amount": 5184.09,
+      "location": "India",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 1
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: card not present abuse control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI scored rapid CNP attempts with CVV mismatches and bot-like velocity, then auto-declined the sequence under CNP-SHIELD-03.",
+    "supervisor_note": "Automated closure for Card Not Present Abuse.",
+    "action_at": "2026-06-14T08:51:24.017279",
+    "resolved_at": "2026-06-14T08:51:24.017279"
+  },
+  {
+    "alert_id": "ALERT0103",
+    "transaction_id": "TXN94566",
+    "customer_id": "CUST0062",
+    "customer_name": "Matthew Mendez",
+    "risk_score": 98,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-08-05T20:07:24.017279",
+    "factors": {
+      "amount": 6790.65,
+      "location": "Brazil",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 2
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: sim swap safeguard control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI consumed telecom-risk signal and sudden credential reset pattern, then quarantined outbound transfer capability under ID-PROTECT-06.",
+    "supervisor_note": "Automated closure for SIM Swap Safeguard.",
+    "action_at": "2026-08-05T21:08:24.017279",
+    "resolved_at": "2026-08-05T21:08:24.017279"
+  },
+  {
+    "alert_id": "ALERT0104",
+    "transaction_id": "TXN92312",
+    "customer_id": "CUST0066",
+    "customer_name": "Jesus Brown",
+    "risk_score": 73,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-08-02T13:36:24.017279",
+    "factors": {
+      "amount": 6099.18,
+      "location": "Nigeria",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 4
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: refund fraud containment control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI linked refund destination mismatch and synthetic identity indicators, then held credit release and opened compliance note under REFUND-GUARD-04.",
+    "supervisor_note": "Automated closure for Refund Fraud Containment.",
+    "action_at": "2026-08-02T13:46:24.017279",
+    "resolved_at": "2026-08-02T13:46:24.017279"
+  },
+  {
+    "alert_id": "ALERT0105",
+    "transaction_id": "TXN92343",
+    "customer_id": "CUST0049",
+    "customer_name": "Rebecca Hicks",
+    "risk_score": 91,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-13T03:19:24.017279",
+    "factors": {
+      "amount": 9280.21,
+      "location": "Nigeria",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 4
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: friendly fraud resolution control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched delivery confirmation, device fingerprint continuity, and historical dispute behavior; auto-resolved as non-fraud with explanation package.",
+    "supervisor_note": "Automated closure for Friendly Fraud Resolution.",
+    "action_at": "2026-06-13T03:30:24.017279",
+    "resolved_at": "2026-06-13T03:30:24.017279"
+  },
+  {
+    "alert_id": "ALERT0106",
+    "transaction_id": "TXN93144",
+    "customer_id": "CUST0066",
+    "customer_name": "Jesus Brown",
+    "risk_score": 93,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-07-10T10:46:24.017279",
+    "factors": {
+      "amount": 6860.56,
+      "location": "Germany",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 3
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: wire transfer velocity check control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI observed unusual same-day transfer fan-out and beneficiary novelty, triggering auto-hold and customer callback workflow.",
+    "supervisor_note": "Automated closure for Wire Transfer Velocity Check.",
+    "action_at": "2026-07-10T11:55:24.017279",
+    "resolved_at": "2026-07-10T11:55:24.017279"
+  },
+  {
+    "alert_id": "ALERT0107",
+    "transaction_id": "TXN94492",
+    "customer_id": "CUST0066",
+    "customer_name": "Jesus Brown",
+    "risk_score": 72,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-06-24T12:04:24.017279",
+    "factors": {
+      "amount": 4978.74,
+      "location": "Nigeria",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 4
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: travel whitelist auto-resolve control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched travel notice and known device confidence > 0.95, then resolved alert as legitimate without manual intervention.",
+    "supervisor_note": "Automated closure for Travel Whitelist Auto-Resolve.",
+    "action_at": "2026-06-24T13:05:24.017279",
+    "resolved_at": "2026-06-24T13:05:24.017279"
+  },
+  {
+    "alert_id": "ALERT0108",
+    "transaction_id": "TXN95905",
+    "customer_id": "CUST0008",
+    "customer_name": "Michelle Moore",
+    "risk_score": 83,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-07-05T00:15:24.017279",
+    "factors": {
+      "amount": 3436.39,
+      "location": "Brazil",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 5
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: account takeover prevention control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI correlated failed-login bursts, new device enrollment, and geo mismatch; policy ATO-01 auto-locked risky sessions and forced step-up verification.",
+    "supervisor_note": "Automated closure for Account Takeover Prevention.",
+    "action_at": "2026-07-05T01:02:24.017279",
+    "resolved_at": "2026-07-05T01:02:24.017279"
+  },
+  {
+    "alert_id": "ALERT0109",
+    "transaction_id": "TXN94450",
+    "customer_id": "CUST0058",
+    "customer_name": "Sherri Smith",
+    "risk_score": 75,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-06-07T11:17:24.017279",
+    "factors": {
+      "amount": 7507.51,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 4
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: duplicate settlement reversal control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched duplicate authorization and clearing records within 6 minutes and auto-reversed the duplicate debit under DISPUTE-DUP-02.",
+    "supervisor_note": "Automated closure for Duplicate Settlement Reversal.",
+    "action_at": "2026-06-07T11:37:24.017279",
+    "resolved_at": "2026-06-07T11:37:24.017279"
+  },
+  {
+    "alert_id": "ALERT0110",
+    "transaction_id": "TXN96464",
+    "customer_id": "CUST0100",
+    "customer_name": "Melanie Allen",
+    "risk_score": 90,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-21T22:10:24.017279",
+    "factors": {
+      "amount": 1721.46,
+      "location": "Brazil",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: impossible travel block control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI detected impossible travel between two countries within a non-feasible window and blocked card-present usage under AML-RISK-07.",
+    "supervisor_note": "Automated closure for Impossible Travel Block.",
+    "action_at": "2026-06-21T22:46:24.017279",
+    "resolved_at": "2026-06-21T22:46:24.017279"
+  },
+  {
+    "alert_id": "ALERT0111",
+    "transaction_id": "TXN93442",
+    "customer_id": "CUST0038",
+    "customer_name": "Kathryn Whitaker",
+    "risk_score": 98,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-18T03:43:24.017279",
+    "factors": {
+      "amount": 7180.44,
+      "location": "Nigeria",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 0
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: merchant mcc risk spike control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI identified abnormal spend at high-risk MCC combined with off-hour activity and applied temporary spend controls pending customer confirmation.",
+    "supervisor_note": "Automated closure for Merchant MCC Risk Spike.",
+    "action_at": "2026-06-18T04:19:24.017279",
+    "resolved_at": "2026-06-18T04:19:24.017279"
+  },
+  {
+    "alert_id": "ALERT0112",
+    "transaction_id": "TXN95088",
+    "customer_id": "CUST0034",
+    "customer_name": "Ashley Gordon",
+    "risk_score": 92,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-07-03T06:30:24.017279",
+    "factors": {
+      "amount": 1272.28,
+      "location": "Germany",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 1
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: card not present abuse control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI scored rapid CNP attempts with CVV mismatches and bot-like velocity, then auto-declined the sequence under CNP-SHIELD-03.",
+    "supervisor_note": "Automated closure for Card Not Present Abuse.",
+    "action_at": "2026-07-03T07:20:24.017279",
+    "resolved_at": "2026-07-03T07:20:24.017279"
+  },
+  {
+    "alert_id": "ALERT0113",
+    "transaction_id": "TXN93938",
+    "customer_id": "CUST0034",
+    "customer_name": "Ashley Gordon",
+    "risk_score": 77,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-06-25T05:01:24.017279",
+    "factors": {
+      "amount": 9588.23,
+      "location": "India",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 0
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: sim swap safeguard control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI consumed telecom-risk signal and sudden credential reset pattern, then quarantined outbound transfer capability under ID-PROTECT-06.",
+    "supervisor_note": "Automated closure for SIM Swap Safeguard.",
+    "action_at": "2026-06-25T05:56:24.017279",
+    "resolved_at": "2026-06-25T05:56:24.017279"
+  },
+  {
+    "alert_id": "ALERT0114",
+    "transaction_id": "TXN98711",
+    "customer_id": "CUST0049",
+    "customer_name": "Rebecca Hicks",
+    "risk_score": 92,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-19T21:33:24.017279",
+    "factors": {
+      "amount": 7907.63,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 6
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: refund fraud containment control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI linked refund destination mismatch and synthetic identity indicators, then held credit release and opened compliance note under REFUND-GUARD-04.",
+    "supervisor_note": "Automated closure for Refund Fraud Containment.",
+    "action_at": "2026-06-19T22:28:24.017279",
+    "resolved_at": "2026-06-19T22:28:24.017279"
+  },
+  {
+    "alert_id": "ALERT0115",
+    "transaction_id": "TXN95564",
+    "customer_id": "CUST0071",
+    "customer_name": "Regina Rivera",
+    "risk_score": 93,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-07-23T01:31:24.017279",
+    "factors": {
+      "amount": 2884.02,
+      "location": "Mexico",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 2
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: friendly fraud resolution control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched delivery confirmation, device fingerprint continuity, and historical dispute behavior; auto-resolved as non-fraud with explanation package.",
+    "supervisor_note": "Automated closure for Friendly Fraud Resolution.",
+    "action_at": "2026-07-23T02:32:24.017279",
+    "resolved_at": "2026-07-23T02:32:24.017279"
+  },
+  {
+    "alert_id": "ALERT0116",
+    "transaction_id": "TXN95349",
+    "customer_id": "CUST0071",
+    "customer_name": "Regina Rivera",
+    "risk_score": 98,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-12T05:34:24.017279",
+    "factors": {
+      "amount": 3847.23,
+      "location": "USA",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 1
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: wire transfer velocity check control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI observed unusual same-day transfer fan-out and beneficiary novelty, triggering auto-hold and customer callback workflow.",
+    "supervisor_note": "Automated closure for Wire Transfer Velocity Check.",
+    "action_at": "2026-06-12T06:12:24.017279",
+    "resolved_at": "2026-06-12T06:12:24.017279"
+  },
+  {
+    "alert_id": "ALERT0117",
+    "transaction_id": "TXN94114",
+    "customer_id": "CUST0071",
+    "customer_name": "Regina Rivera",
+    "risk_score": 96,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-08-04T04:45:24.017279",
+    "factors": {
+      "amount": 6295.26,
+      "location": "Nigeria",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 4
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: travel whitelist auto-resolve control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched travel notice and known device confidence > 0.95, then resolved alert as legitimate without manual intervention.",
+    "supervisor_note": "Automated closure for Travel Whitelist Auto-Resolve.",
+    "action_at": "2026-08-04T05:43:24.017279",
+    "resolved_at": "2026-08-04T05:43:24.017279"
+  },
+  {
+    "alert_id": "ALERT0118",
+    "transaction_id": "TXN93041",
+    "customer_id": "CUST0002",
+    "customer_name": "Kimberly Dudley",
+    "risk_score": 83,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-07-21T06:38:24.017279",
+    "factors": {
+      "amount": 4738.55,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 5
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: account takeover prevention control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI correlated failed-login bursts, new device enrollment, and geo mismatch; policy ATO-01 auto-locked risky sessions and forced step-up verification.",
+    "supervisor_note": "Automated closure for Account Takeover Prevention.",
+    "action_at": "2026-07-21T07:36:24.017279",
+    "resolved_at": "2026-07-21T07:36:24.017279"
+  },
+  {
+    "alert_id": "ALERT0119",
+    "transaction_id": "TXN97211",
+    "customer_id": "CUST0088",
+    "customer_name": "Christine Parker",
+    "risk_score": 96,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-20T22:51:24.017279",
+    "factors": {
+      "amount": 7105.15,
+      "location": "Nigeria",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 3
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: duplicate settlement reversal control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched duplicate authorization and clearing records within 6 minutes and auto-reversed the duplicate debit under DISPUTE-DUP-02.",
+    "supervisor_note": "Automated closure for Duplicate Settlement Reversal.",
+    "action_at": "2026-06-20T23:33:24.017279",
+    "resolved_at": "2026-06-20T23:33:24.017279"
+  },
+  {
+    "alert_id": "ALERT0120",
+    "transaction_id": "TXN96279",
+    "customer_id": "CUST0065",
+    "customer_name": "Juan Silva",
+    "risk_score": 98,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "resolved",
+    "created_at": "2026-06-23T08:26:24.017279",
+    "factors": {
+      "amount": 8320.15,
+      "location": "Germany",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 3
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: impossible travel block control applied",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI detected impossible travel between two countries within a non-feasible window and blocked card-present usage under AML-RISK-07.",
+    "supervisor_note": "Automated closure for Impossible Travel Block.",
+    "action_at": "2026-06-23T08:51:24.017279",
+    "resolved_at": "2026-06-23T08:51:24.017279"
+  },
+  {
     "alert_id": "ALERT0001",
     "transaction_id": "TXN00488",
     "customer_id": "CUST0075",
@@ -8,7 +828,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-07-27T10:28:15.078091",
+    "created_at": "2026-07-27T09:51:40.933339",
     "factors": {
       "amount": 4222.57,
       "location": "UK",
@@ -26,7 +846,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-07-20T02:28:15.076331",
+    "created_at": "2026-07-20T01:51:40.932543",
     "factors": {
       "amount": 6880.93,
       "location": "USA",
@@ -44,7 +864,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-05-18T00:28:15.078917",
+    "created_at": "2026-05-17T23:51:40.933677",
     "factors": {
       "amount": 7642.49,
       "location": "UK",
@@ -62,7 +882,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-06-21T01:28:15.079183",
+    "created_at": "2026-06-21T00:51:40.933819",
     "factors": {
       "amount": 5577.8,
       "location": "UK",
@@ -80,7 +900,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-07-17T22:28:15.077711",
+    "created_at": "2026-07-17T21:51:40.933136",
     "factors": {
       "amount": 2959.11,
       "location": "USA",
@@ -98,7 +918,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-07-29T20:28:15.074727",
+    "created_at": "2026-07-29T19:51:40.931859",
     "factors": {
       "amount": 2616.28,
       "location": "USA",
@@ -116,7 +936,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "resolved",
-    "created_at": "2026-05-13T20:28:15.080690",
+    "created_at": "2026-05-13T19:51:40.934438",
     "factors": {
       "amount": 1279.96,
       "location": "USA",
@@ -134,7 +954,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-06-15T01:28:15.077706",
+    "created_at": "2026-06-15T00:51:40.933132",
     "factors": {
       "amount": 4604.95,
       "location": "UK",
@@ -152,7 +972,7 @@
     "priority": "High",
     "recommended_action": "Verify with Customer",
     "status": "resolved",
-    "created_at": "2026-07-13T21:28:15.081054",
+    "created_at": "2026-07-13T20:51:40.934656",
     "factors": {
       "amount": 9372.8,
       "location": "Nigeria",
@@ -170,7 +990,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "resolved",
-    "created_at": "2026-05-12T15:28:15.077160",
+    "created_at": "2026-05-12T14:51:40.932930",
     "factors": {
       "amount": 2475.28,
       "location": "UK",
@@ -188,7 +1008,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "resolved",
-    "created_at": "2026-05-30T16:28:15.079273",
+    "created_at": "2026-05-30T15:51:40.933870",
     "factors": {
       "amount": 3925.52,
       "location": "USA",
@@ -206,7 +1026,7 @@
     "priority": "High",
     "recommended_action": "Verify with Customer",
     "status": "investigating",
-    "created_at": "2026-05-22T04:28:15.075701",
+    "created_at": "2026-05-22T03:51:40.932232",
     "factors": {
       "amount": 6390.58,
       "location": "Brazil",
@@ -224,7 +1044,7 @@
     "priority": "High",
     "recommended_action": "Verify with Customer",
     "status": "resolved",
-    "created_at": "2026-05-27T04:28:15.077780",
+    "created_at": "2026-05-27T03:51:40.933175",
     "factors": {
       "amount": 5642.87,
       "location": "India",
@@ -242,7 +1062,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-05-29T02:28:15.079392",
+    "created_at": "2026-05-29T01:51:40.933929",
     "factors": {
       "amount": 4658.42,
       "location": "UK",
@@ -260,7 +1080,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-06-03T12:28:15.077729",
+    "created_at": "2026-06-03T11:51:40.933146",
     "factors": {
       "amount": 6038.22,
       "location": "Mexico",
@@ -278,7 +1098,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-07-08T11:28:15.074754",
+    "created_at": "2026-07-08T10:51:40.931871",
     "factors": {
       "amount": 3223.16,
       "location": "UK",
@@ -296,7 +1116,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-07-01T03:28:15.074220",
+    "created_at": "2026-07-01T02:51:40.931648",
     "factors": {
       "amount": 8979.61,
       "location": "UK",
@@ -314,7 +1134,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-25T23:28:15.078487",
+    "created_at": "2026-06-25T22:51:40.933480",
     "factors": {
       "amount": 836.01,
       "location": "USA",
@@ -332,7 +1152,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "resolved",
-    "created_at": "2026-06-03T11:28:15.076959",
+    "created_at": "2026-06-03T10:51:40.932827",
     "factors": {
       "amount": 4026.85,
       "location": "UK",
@@ -350,7 +1170,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-06-02T22:28:15.077974",
+    "created_at": "2026-06-02T21:51:40.933287",
     "factors": {
       "amount": 6875.24,
       "location": "USA",
@@ -368,7 +1188,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-17T03:28:15.079918",
+    "created_at": "2026-06-17T02:51:40.934106",
     "factors": {
       "amount": 1308.29,
       "location": "USA",
@@ -386,7 +1206,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-03T18:28:15.075960",
+    "created_at": "2026-06-03T17:51:40.932372",
     "factors": {
       "amount": 5442.8,
       "location": "USA",
@@ -404,7 +1224,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-06-18T00:28:15.079723",
+    "created_at": "2026-06-17T23:51:40.933996",
     "factors": {
       "amount": 6901.34,
       "location": "USA",
@@ -422,7 +1242,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-07-17T18:28:15.079989",
+    "created_at": "2026-07-17T17:51:40.934149",
     "factors": {
       "amount": 2153.46,
       "location": "USA",
@@ -440,7 +1260,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "resolved",
-    "created_at": "2026-06-04T09:28:15.080193",
+    "created_at": "2026-06-04T08:51:40.934258",
     "factors": {
       "amount": 7676.77,
       "location": "Mexico",
@@ -458,7 +1278,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-07-27T11:28:15.075412",
+    "created_at": "2026-07-27T10:51:40.932120",
     "factors": {
       "amount": 5725.29,
       "location": "USA",
@@ -476,7 +1296,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-06-11T11:28:15.082118",
+    "created_at": "2026-06-11T10:51:40.935142",
     "factors": {
       "amount": 2419.63,
       "location": "Mexico",
@@ -494,7 +1314,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "resolved",
-    "created_at": "2026-05-11T16:28:15.078232",
+    "created_at": "2026-05-11T15:51:40.933414",
     "factors": {
       "amount": 1395.34,
       "location": "UK",
@@ -512,7 +1332,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-21T14:28:15.078655",
+    "created_at": "2026-06-21T13:51:40.933532",
     "factors": {
       "amount": 9107.47,
       "location": "USA",
@@ -530,7 +1350,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-22T01:28:15.079369",
+    "created_at": "2026-06-22T00:51:40.933925",
     "factors": {
       "amount": 1284.28,
       "location": "UK",
@@ -548,7 +1368,7 @@
     "priority": "High",
     "recommended_action": "Verify with Customer",
     "status": "investigating",
-    "created_at": "2026-07-10T12:28:15.079716",
+    "created_at": "2026-07-10T11:51:40.933992",
     "factors": {
       "amount": 7275.4,
       "location": "UK",
@@ -566,7 +1386,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "resolved",
-    "created_at": "2026-06-05T14:28:15.078643",
+    "created_at": "2026-06-05T13:51:40.933525",
     "factors": {
       "amount": 3396.03,
       "location": "UK",
@@ -584,7 +1404,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-07-08T14:28:15.074680",
+    "created_at": "2026-07-08T13:51:40.931829",
     "factors": {
       "amount": 7357.63,
       "location": "USA",
@@ -602,7 +1422,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-25T11:28:15.076616",
+    "created_at": "2026-06-25T10:51:40.932627",
     "factors": {
       "amount": 1010.94,
       "location": "UK",
@@ -620,7 +1440,7 @@
     "priority": "High",
     "recommended_action": "Verify with Customer",
     "status": "resolved",
-    "created_at": "2026-06-09T16:28:15.078030",
+    "created_at": "2026-06-09T15:51:40.933305",
     "factors": {
       "amount": 7940.05,
       "location": "UK",
@@ -638,7 +1458,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "resolved",
-    "created_at": "2026-08-03T04:28:15.077798",
+    "created_at": "2026-08-03T03:51:40.933186",
     "factors": {
       "amount": 4727.56,
       "location": "UK",
@@ -656,7 +1476,7 @@
     "priority": "High",
     "recommended_action": "Verify with Customer",
     "status": "investigating",
-    "created_at": "2026-07-10T10:28:15.074657",
+    "created_at": "2026-07-10T09:51:40.931814",
     "factors": {
       "amount": 4227.39,
       "location": "India",
@@ -674,7 +1494,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "resolved",
-    "created_at": "2026-06-23T01:28:15.081949",
+    "created_at": "2026-06-23T00:51:40.935050",
     "factors": {
       "amount": 5549.77,
       "location": "USA",
@@ -692,7 +1512,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "resolved",
-    "created_at": "2026-07-16T06:28:15.080982",
+    "created_at": "2026-07-16T05:51:40.934612",
     "factors": {
       "amount": 612.28,
       "location": "UK",
@@ -710,7 +1530,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "resolved",
-    "created_at": "2026-08-02T07:28:15.078102",
+    "created_at": "2026-08-02T06:51:40.933345",
     "factors": {
       "amount": 5218.69,
       "location": "UK",
@@ -728,7 +1548,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-07-29T06:28:15.076683",
+    "created_at": "2026-07-29T05:51:40.932665",
     "factors": {
       "amount": 971.14,
       "location": "UK",
@@ -746,7 +1566,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-06-24T04:28:15.075273",
+    "created_at": "2026-06-24T03:51:40.932096",
     "factors": {
       "amount": 1667.47,
       "location": "China",
@@ -764,14 +1584,18 @@
     "priority": "High",
     "recommended_action": "Verify with Customer",
     "status": "investigating",
-    "created_at": "2026-06-23T15:28:15.075018",
+    "created_at": "2026-06-23T14:51:40.932011",
     "factors": {
       "amount": 9193.28,
       "location": "UK",
       "is_foreign": true,
       "new_device": false,
       "failed_login_attempts": 2
-    }
+    },
+    "chat_initiated": true,
+    "chat_initiated_at": "2026-08-07T07:07:25.330753",
+    "chat_initiated_by": "admin",
+    "chat_initiated_note": "Chat initiated from Fraud Alerts page"
   },
   {
     "alert_id": "ALERT0044",
@@ -782,7 +1606,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-08-03T13:28:15.079973",
+    "created_at": "2026-08-03T12:51:40.934140",
     "factors": {
       "amount": 759.62,
       "location": "USA",
@@ -800,7 +1624,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "resolved",
-    "created_at": "2026-07-16T09:28:15.081921",
+    "created_at": "2026-07-16T08:51:40.935033",
     "factors": {
       "amount": 4094.32,
       "location": "USA",
@@ -817,15 +1641,19 @@
     "risk_score": 87,
     "priority": "High",
     "recommended_action": "Verify with Customer",
-    "status": "open",
-    "created_at": "2026-06-29T18:28:15.082158",
+    "status": "investigating",
+    "created_at": "2026-06-29T17:51:40.935165",
     "factors": {
       "amount": 8165.16,
       "location": "Nigeria",
       "is_foreign": true,
       "new_device": true,
       "failed_login_attempts": 1
-    }
+    },
+    "chat_initiated": true,
+    "chat_initiated_at": "2026-08-07T07:07:02.856519",
+    "chat_initiated_by": "admin",
+    "chat_initiated_note": "Chat initiated from Fraud Alerts page"
   },
   {
     "alert_id": "ALERT0047",
@@ -836,7 +1664,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-08-04T15:28:15.081293",
+    "created_at": "2026-08-04T14:51:40.934783",
     "factors": {
       "amount": 3960.02,
       "location": "Mexico",
@@ -854,7 +1682,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "resolved",
-    "created_at": "2026-06-22T15:28:15.076137",
+    "created_at": "2026-06-22T14:51:40.932468",
     "factors": {
       "amount": 2488.53,
       "location": "UK",
@@ -872,7 +1700,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-05-20T16:28:15.078629",
+    "created_at": "2026-05-20T15:51:40.933517",
     "factors": {
       "amount": 1850.13,
       "location": "UK",
@@ -890,7 +1718,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-05-22T10:28:15.077735",
+    "created_at": "2026-05-22T09:51:40.933149",
     "factors": {
       "amount": 1691.16,
       "location": "UK",
@@ -908,7 +1736,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "investigating",
-    "created_at": "2026-06-11T01:28:15.076648",
+    "created_at": "2026-06-11T00:51:40.932646",
     "factors": {
       "amount": 6620.77,
       "location": "Mexico",
@@ -926,7 +1754,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-06-17T12:28:15.078957",
+    "created_at": "2026-06-17T11:51:40.933699",
     "factors": {
       "amount": 5569.83,
       "location": "UK",
@@ -944,7 +1772,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-06-07T17:28:15.074441",
+    "created_at": "2026-06-07T16:51:40.931679",
     "factors": {
       "amount": 4342.19,
       "location": "Mexico",
@@ -962,7 +1790,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-07-15T09:28:15.078830",
+    "created_at": "2026-07-15T08:51:40.933629",
     "factors": {
       "amount": 8565.77,
       "location": "USA",
@@ -980,7 +1808,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "resolved",
-    "created_at": "2026-06-04T21:28:15.074638",
+    "created_at": "2026-06-04T20:51:40.931802",
     "factors": {
       "amount": 927.84,
       "location": "USA",
@@ -998,7 +1826,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "investigating",
-    "created_at": "2026-06-27T18:28:15.082020",
+    "created_at": "2026-06-27T17:51:40.935092",
     "factors": {
       "amount": 3938.91,
       "location": "UK",
@@ -1016,7 +1844,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "resolved",
-    "created_at": "2026-07-26T17:28:15.074428",
+    "created_at": "2026-07-26T16:51:40.931671",
     "factors": {
       "amount": 9426.48,
       "location": "UK",
@@ -1034,7 +1862,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-06-27T23:28:15.082366",
+    "created_at": "2026-06-27T22:51:40.935251",
     "factors": {
       "amount": 9296.02,
       "location": "USA",
@@ -1052,7 +1880,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-05-22T23:28:15.074876",
+    "created_at": "2026-05-22T22:51:40.931934",
     "factors": {
       "amount": 77.99,
       "location": "UK",
@@ -1070,7 +1898,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-26T08:28:15.078326",
+    "created_at": "2026-06-26T07:51:40.933469",
     "factors": {
       "amount": 786.87,
       "location": "Nigeria",
@@ -1088,7 +1916,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-06-09T23:28:15.077722",
+    "created_at": "2026-06-09T22:51:40.933142",
     "factors": {
       "amount": 8721.71,
       "location": "USA",
@@ -1106,7 +1934,7 @@
     "priority": "High",
     "recommended_action": "Verify with Customer",
     "status": "resolved",
-    "created_at": "2026-06-13T22:28:15.077641",
+    "created_at": "2026-06-13T21:51:40.933094",
     "factors": {
       "amount": 9388.72,
       "location": "UK",
@@ -1124,7 +1952,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-27T11:28:15.074761",
+    "created_at": "2026-06-27T10:51:40.931876",
     "factors": {
       "amount": 2972.41,
       "location": "Mexico",
@@ -1142,7 +1970,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-30T16:28:15.077980",
+    "created_at": "2026-06-30T15:51:40.933291",
     "factors": {
       "amount": 4413.31,
       "location": "USA",
@@ -1160,7 +1988,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "resolved",
-    "created_at": "2026-05-25T18:28:15.079818",
+    "created_at": "2026-05-25T17:51:40.934048",
     "factors": {
       "amount": 5333.29,
       "location": "USA",
@@ -1178,7 +2006,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "resolved",
-    "created_at": "2026-06-15T01:28:15.080240",
+    "created_at": "2026-06-15T00:51:40.934283",
     "factors": {
       "amount": 536.93,
       "location": "UK",
@@ -1196,7 +2024,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "investigating",
-    "created_at": "2026-06-06T00:28:15.082075",
+    "created_at": "2026-06-05T23:51:40.935123",
     "factors": {
       "amount": 530.33,
       "location": "UK",
@@ -1214,7 +2042,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-05-11T09:28:15.081068",
+    "created_at": "2026-05-11T08:51:40.934665",
     "factors": {
       "amount": 4728.9,
       "location": "UK",
@@ -1232,7 +2060,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-06-22T19:28:15.076171",
+    "created_at": "2026-06-22T18:51:40.932488",
     "factors": {
       "amount": 1333.91,
       "location": "USA",
@@ -1250,7 +2078,7 @@
     "priority": "High",
     "recommended_action": "Verify with Customer",
     "status": "investigating",
-    "created_at": "2026-07-01T15:28:15.077070",
+    "created_at": "2026-07-01T14:51:40.932881",
     "factors": {
       "amount": 3112.72,
       "location": "Brazil",
@@ -1268,7 +2096,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "investigating",
-    "created_at": "2026-05-29T04:28:15.076176",
+    "created_at": "2026-05-29T03:51:40.932491",
     "factors": {
       "amount": 9093.96,
       "location": "Mexico",
@@ -1286,7 +2114,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-08-05T03:28:15.079087",
+    "created_at": "2026-08-05T02:51:40.933763",
     "factors": {
       "amount": 2006.09,
       "location": "UK",
@@ -1304,7 +2132,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-07-22T10:28:15.074669",
+    "created_at": "2026-07-22T09:51:40.931822",
     "factors": {
       "amount": 875.44,
       "location": "UK",
@@ -1322,7 +2150,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "investigating",
-    "created_at": "2026-07-02T16:28:15.080777",
+    "created_at": "2026-07-02T15:51:40.934490",
     "factors": {
       "amount": 139.86,
       "location": "USA",
@@ -1340,7 +2168,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-05-25T07:28:15.078284",
+    "created_at": "2026-05-25T06:51:40.933444",
     "factors": {
       "amount": 3405.02,
       "location": "USA",
@@ -1358,7 +2186,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-07-27T17:28:15.074008",
+    "created_at": "2026-07-27T16:51:40.931545",
     "factors": {
       "amount": 6842.11,
       "location": "USA",
@@ -1376,7 +2204,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-07-06T11:28:15.074919",
+    "created_at": "2026-07-06T10:51:40.931956",
     "factors": {
       "amount": 5596.33,
       "location": "UK",
@@ -1394,7 +2222,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-05-09T03:28:15.080393",
+    "created_at": "2026-05-09T02:51:40.934373",
     "factors": {
       "amount": 3141.46,
       "location": "USA",
@@ -1412,7 +2240,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-06-26T03:28:15.079825",
+    "created_at": "2026-06-26T02:51:40.934052",
     "factors": {
       "amount": 8779.69,
       "location": "Germany",
@@ -1430,7 +2258,7 @@
     "priority": "High",
     "recommended_action": "Verify with Customer",
     "status": "investigating",
-    "created_at": "2026-08-07T00:28:15.077968",
+    "created_at": "2026-08-06T23:51:40.933283",
     "factors": {
       "amount": 6382.16,
       "location": "UK",
@@ -1448,7 +2276,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-06T10:28:15.075661",
+    "created_at": "2026-06-06T09:51:40.932208",
     "factors": {
       "amount": 1942.2,
       "location": "USA",
@@ -1466,7 +2294,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "resolved",
-    "created_at": "2026-07-04T19:28:15.080885",
+    "created_at": "2026-07-04T18:51:40.934556",
     "factors": {
       "amount": 4188.26,
       "location": "USA",
@@ -1484,7 +2312,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-07-06T20:28:15.075678",
+    "created_at": "2026-07-06T19:51:40.932218",
     "factors": {
       "amount": 924.23,
       "location": "UK",
@@ -1501,15 +2329,21 @@
     "risk_score": 91,
     "priority": "Critical",
     "recommended_action": "Freeze Card",
-    "status": "open",
-    "created_at": "2026-06-01T04:28:15.081307",
+    "status": "resolved",
+    "created_at": "2026-06-01T03:51:40.934791",
     "factors": {
       "amount": 3194.16,
       "location": "Nigeria",
       "is_foreign": true,
       "new_device": true,
       "failed_login_attempts": 5
-    }
+    },
+    "supervisor_action": "Auto-resolved by AI Agent: freeze card and block risky corridor",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI detected impossible travel plus new-device takeover indicators with 5 failed logins, crossing threshold for immediate block under AML-RISK-07.",
+    "supervisor_note": "AI resolved and escalated summary to supervisor dashboard for audit review.",
+    "action_at": "2026-08-07T06:58:24.138400",
+    "resolved_at": "2026-08-07T06:58:24.138404"
   },
   {
     "alert_id": "ALERT0085",
@@ -1520,7 +2354,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-05-20T17:28:15.077502",
+    "created_at": "2026-05-20T16:51:40.933023",
     "factors": {
       "amount": 6078.45,
       "location": "Mexico",
@@ -1538,7 +2372,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-07-29T04:28:15.082045",
+    "created_at": "2026-07-29T03:51:40.935106",
     "factors": {
       "amount": 1937.78,
       "location": "UK",
@@ -1556,7 +2390,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-14T13:28:15.082231",
+    "created_at": "2026-06-14T12:51:40.935195",
     "factors": {
       "amount": 1732.04,
       "location": "USA",
@@ -1574,7 +2408,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "investigating",
-    "created_at": "2026-05-26T06:28:15.077666",
+    "created_at": "2026-05-26T05:51:40.933109",
     "factors": {
       "amount": 5537.52,
       "location": "Mexico",
@@ -1592,7 +2426,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-07-28T21:28:15.081745",
+    "created_at": "2026-07-28T20:51:40.934928",
     "factors": {
       "amount": 7779.93,
       "location": "Mexico",
@@ -1610,7 +2444,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "resolved",
-    "created_at": "2026-07-30T04:28:15.080128",
+    "created_at": "2026-07-30T03:51:40.934220",
     "factors": {
       "amount": 3318.94,
       "location": "UK",
@@ -1628,7 +2462,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-07-17T14:28:15.076663",
+    "created_at": "2026-07-17T13:51:40.932654",
     "factors": {
       "amount": 5320.77,
       "location": "USA",
@@ -1646,7 +2480,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-05-23T02:28:15.076771",
+    "created_at": "2026-05-23T01:51:40.932720",
     "factors": {
       "amount": 3334.24,
       "location": "USA",
@@ -1664,7 +2498,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-24T13:28:15.079101",
+    "created_at": "2026-06-24T12:51:40.933771",
     "factors": {
       "amount": 1751.26,
       "location": "UK",
@@ -1682,7 +2516,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-04T17:28:15.080266",
+    "created_at": "2026-06-04T16:51:40.934297",
     "factors": {
       "amount": 3533.19,
       "location": "UK",
@@ -1700,7 +2534,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "resolved",
-    "created_at": "2026-07-16T21:28:15.077914",
+    "created_at": "2026-07-16T20:51:40.933251",
     "factors": {
       "amount": 3485.79,
       "location": "UK",
@@ -1718,7 +2552,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "open",
-    "created_at": "2026-06-05T03:28:15.080696",
+    "created_at": "2026-06-05T02:51:40.934441",
     "factors": {
       "amount": 4151.8,
       "location": "USA",
@@ -1736,7 +2570,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "investigating",
-    "created_at": "2026-08-05T22:28:15.079882",
+    "created_at": "2026-08-05T21:51:40.934085",
     "factors": {
       "amount": 3695.19,
       "location": "Mexico",
@@ -1754,7 +2588,7 @@
     "priority": "Medium",
     "recommended_action": "Monitor Account",
     "status": "open",
-    "created_at": "2026-05-13T00:28:15.077884",
+    "created_at": "2026-05-12T23:51:40.933234",
     "factors": {
       "amount": 5955.39,
       "location": "Mexico",
@@ -1772,7 +2606,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "investigating",
-    "created_at": "2026-06-29T18:28:15.079333",
+    "created_at": "2026-06-29T17:51:40.933904",
     "factors": {
       "amount": 3427.25,
       "location": "USA",
@@ -1790,7 +2624,7 @@
     "priority": "Low",
     "recommended_action": "No Action Required",
     "status": "resolved",
-    "created_at": "2026-06-07T02:28:15.081030",
+    "created_at": "2026-06-07T01:51:40.934642",
     "factors": {
       "amount": 1209.84,
       "location": "Mexico",

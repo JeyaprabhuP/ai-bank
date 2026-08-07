@@ -1,11 +1,865 @@
 [
   {
+    "ticket_id": "TICKET0079-mn01",
+    "customer_id": "CUST0048",
+    "subject": "Card used in another country (Manual Review)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-07-10T20:13:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN002 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "chat",
+      "summary": "Customer confirmed travel booking receipts and approved transaction timeline.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN002",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-07-10T22:58:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0080-mn02",
+    "customer_id": "CUST0100",
+    "subject": "Dispute a charge (Manual Review)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-07-19T09:01:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN001 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "voice_call",
+      "summary": "Customer shared invoice proof and accepted merchant clarification; no fraud intent found.",
+      "customer_confirmation": "partial_confirmation"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN001",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-07-19T11:28:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0081-mn03",
+    "customer_id": "CUST0047",
+    "subject": "Unable to log in (Manual Review)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-06-26T14:12:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN004 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "voice_call",
+      "summary": "Customer identity verified through OTP and KYC prompts before access reset.",
+      "customer_confirmation": "partial_confirmation"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN004",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-06-26T15:59:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0082-mn04",
+    "customer_id": "CUST0099",
+    "subject": "Suspicious transaction reported (Manual Review)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-07-24T14:04:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN001 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "voice_call",
+      "summary": "Customer denied authorization; admin raised dispute and completed manual card controls.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN001",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-07-24T14:37:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0083-mn05",
+    "customer_id": "CUST0076",
+    "subject": "Wire transfer verification needed (Manual Review)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-18T15:25:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN002 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "chat",
+      "summary": "Customer confirmed beneficiary relationship and supporting documents with admin review.",
+      "customer_confirmation": "disputed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN002",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-07-18T17:25:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0084-mn06",
+    "customer_id": "CUST0071",
+    "subject": "Card used in another country (Manual Review)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-07-03T01:47:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN001 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "chat",
+      "summary": "Customer confirmed travel booking receipts and approved transaction timeline.",
+      "customer_confirmation": "partial_confirmation"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN001",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-07-03T03:57:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0085-mn07",
+    "customer_id": "CUST0039",
+    "subject": "Dispute a charge (Manual Review)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-07-25T08:35:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN002 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "chat",
+      "summary": "Customer shared invoice proof and accepted merchant clarification; no fraud intent found.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN002",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-07-25T10:40:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0086-mn08",
+    "customer_id": "CUST0089",
+    "subject": "Unable to log in (Manual Review)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-25T16:42:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN001 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "chat",
+      "summary": "Customer identity verified through OTP and KYC prompts before access reset.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN001",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-07-25T18:41:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0087-mn09",
+    "customer_id": "CUST0028",
+    "subject": "Suspicious transaction reported (Manual Review)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-16T13:25:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN003 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "voice_call",
+      "summary": "Customer denied authorization; admin raised dispute and completed manual card controls.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN003",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-07-16T15:14:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0088-mn10",
+    "customer_id": "CUST0058",
+    "subject": "Wire transfer verification needed (Manual Review)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-06-16T06:45:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN004 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "voice_call",
+      "summary": "Customer confirmed beneficiary relationship and supporting documents with admin review.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN004",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-06-16T07:51:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0089-mn11",
+    "customer_id": "CUST0034",
+    "subject": "Card used in another country (Manual Review)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-13T09:55:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN002 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "voice_call",
+      "summary": "Customer confirmed travel booking receipts and approved transaction timeline.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN002",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-07-13T10:21:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0090-mn12",
+    "customer_id": "CUST0039",
+    "subject": "Dispute a charge (Manual Review)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-07-30T05:16:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN002 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "chat",
+      "summary": "Customer shared invoice proof and accepted merchant clarification; no fraud intent found.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN002",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-07-30T06:43:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0091-mn13",
+    "customer_id": "CUST0058",
+    "subject": "Unable to log in (Manual Review)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-06-30T21:36:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN002 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "voice_call",
+      "summary": "Customer identity verified through OTP and KYC prompts before access reset.",
+      "customer_confirmation": "confirmed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN002",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-06-30T23:55:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0092-mn14",
+    "customer_id": "CUST0007",
+    "subject": "Suspicious transaction reported (Manual Review)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-06-23T05:53:40.228179",
+    "assigned_agent": "Supervisor Agent",
+    "resolution_action": "Manually resolved by admin ADMIN001 after customer interaction review",
+    "resolved_by": "manual",
+    "customer_interaction": {
+      "channel": "chat",
+      "summary": "Customer denied authorization; admin raised dispute and completed manual card controls.",
+      "customer_confirmation": "disputed"
+    },
+    "admin_interaction": {
+      "admin_id": "ADMIN001",
+      "steps_taken": [
+        "Reviewed customer timeline",
+        "Validated supporting evidence",
+        "Applied manual resolution policy"
+      ],
+      "final_note": "Resolved through supervisor decision path with customer acknowledged outcome."
+    },
+    "resolved_at": "2026-06-23T07:18:40.228179"
+  },
+  {
+    "ticket_id": "TICKET0044-ai01",
+    "customer_id": "CUST0049",
+    "subject": "Card used in another country (Account Takeover Prevention)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-06-27T05:22:24.017279",
+    "assigned_agent": "Compliance Agent",
+    "resolution_action": "Auto-resolved by AI Agent: account takeover prevention workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI correlated failed-login bursts, new device enrollment, and geo mismatch; policy ATO-01 auto-locked risky sessions and forced step-up verification.",
+    "resolved_at": "2026-06-27T06:01:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0045-ai02",
+    "customer_id": "CUST0013",
+    "subject": "Unrecognized device login (Duplicate Settlement Reversal)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-30T10:36:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: duplicate settlement reversal workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched duplicate authorization and clearing records within 6 minutes and auto-reversed the duplicate debit under DISPUTE-DUP-02.",
+    "resolved_at": "2026-07-30T11:49:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0046-ai03",
+    "customer_id": "CUST0003",
+    "subject": "Unrecognized device login (Impossible Travel Block)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-08-05T06:10:24.017279",
+    "assigned_agent": "Compliance Agent",
+    "resolution_action": "Auto-resolved by AI Agent: impossible travel block workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI detected impossible travel between two countries within a non-feasible window and blocked card-present usage under AML-RISK-07.",
+    "resolved_at": "2026-08-05T06:43:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0047-ai04",
+    "customer_id": "CUST0048",
+    "subject": "Unable to log in (Merchant MCC Risk Spike)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-06-25T09:49:24.017279",
+    "assigned_agent": "Fraud Detection Agent",
+    "resolution_action": "Auto-resolved by AI Agent: merchant mcc risk spike workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI identified abnormal spend at high-risk MCC combined with off-hour activity and applied temporary spend controls pending customer confirmation.",
+    "resolved_at": "2026-06-25T10:46:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0048-ai05",
+    "customer_id": "CUST0067",
+    "subject": "Dispute a charge (Card Not Present Abuse)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-08-06T02:39:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: card not present abuse workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI scored rapid CNP attempts with CVV mismatches and bot-like velocity, then auto-declined the sequence under CNP-SHIELD-03.",
+    "resolved_at": "2026-08-06T03:37:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0049-ai06",
+    "customer_id": "CUST0016",
+    "subject": "Dispute a charge (SIM Swap Safeguard)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-16T05:18:24.017279",
+    "assigned_agent": "Compliance Agent",
+    "resolution_action": "Auto-resolved by AI Agent: sim swap safeguard workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI consumed telecom-risk signal and sudden credential reset pattern, then quarantined outbound transfer capability under ID-PROTECT-06.",
+    "resolved_at": "2026-07-16T06:10:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0050-ai07",
+    "customer_id": "CUST0018",
+    "subject": "Unable to log in (Refund Fraud Containment)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-07-21T06:37:24.017279",
+    "assigned_agent": "Compliance Agent",
+    "resolution_action": "Auto-resolved by AI Agent: refund fraud containment workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI linked refund destination mismatch and synthetic identity indicators, then held credit release and opened compliance note under REFUND-GUARD-04.",
+    "resolved_at": "2026-07-21T07:39:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0051-ai08",
+    "customer_id": "CUST0044",
+    "subject": "Wire transfer verification needed (Friendly Fraud Resolution)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-07-18T11:44:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: friendly fraud resolution workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched delivery confirmation, device fingerprint continuity, and historical dispute behavior; auto-resolved as non-fraud with explanation package.",
+    "resolved_at": "2026-07-18T12:34:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0052-ai09",
+    "customer_id": "CUST0013",
+    "subject": "Card used in another country (Wire Transfer Velocity Check)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-06-25T00:34:24.017279",
+    "assigned_agent": "Fraud Detection Agent",
+    "resolution_action": "Auto-resolved by AI Agent: wire transfer velocity check workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI observed unusual same-day transfer fan-out and beneficiary novelty, triggering auto-hold and customer callback workflow.",
+    "resolved_at": "2026-06-25T01:15:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0053-ai10",
+    "customer_id": "CUST0038",
+    "subject": "Dispute a charge (Travel Whitelist Auto-Resolve)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-19T17:43:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: travel whitelist auto-resolve workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched travel notice and known device confidence > 0.95, then resolved alert as legitimate without manual intervention.",
+    "resolved_at": "2026-07-19T18:33:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0054-ai11",
+    "customer_id": "CUST0008",
+    "subject": "Unrecognized device login (Account Takeover Prevention)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-06-24T23:39:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: account takeover prevention workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI correlated failed-login bursts, new device enrollment, and geo mismatch; policy ATO-01 auto-locked risky sessions and forced step-up verification.",
+    "resolved_at": "2026-06-25T01:10:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0055-ai12",
+    "customer_id": "CUST0092",
+    "subject": "Unable to log in (Duplicate Settlement Reversal)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-02T09:08:24.017279",
+    "assigned_agent": "Compliance Agent",
+    "resolution_action": "Auto-resolved by AI Agent: duplicate settlement reversal workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched duplicate authorization and clearing records within 6 minutes and auto-reversed the duplicate debit under DISPUTE-DUP-02.",
+    "resolved_at": "2026-07-02T09:32:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0056-ai13",
+    "customer_id": "CUST0066",
+    "subject": "Suspicious transaction reported (Impossible Travel Block)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-06-22T15:09:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: impossible travel block workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI detected impossible travel between two countries within a non-feasible window and blocked card-present usage under AML-RISK-07.",
+    "resolved_at": "2026-06-22T16:40:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0057-ai14",
+    "customer_id": "CUST0047",
+    "subject": "Unrecognized device login (Merchant MCC Risk Spike)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-07-16T20:06:24.017279",
+    "assigned_agent": "Fraud Detection Agent",
+    "resolution_action": "Auto-resolved by AI Agent: merchant mcc risk spike workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI identified abnormal spend at high-risk MCC combined with off-hour activity and applied temporary spend controls pending customer confirmation.",
+    "resolved_at": "2026-07-16T20:18:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0058-ai15",
+    "customer_id": "CUST0092",
+    "subject": "Card used in another country (Card Not Present Abuse)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-23T11:52:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: card not present abuse workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI scored rapid CNP attempts with CVV mismatches and bot-like velocity, then auto-declined the sequence under CNP-SHIELD-03.",
+    "resolved_at": "2026-07-23T12:46:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0059-ai16",
+    "customer_id": "CUST0058",
+    "subject": "Wire transfer verification needed (SIM Swap Safeguard)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-07-21T08:48:24.017279",
+    "assigned_agent": "Fraud Detection Agent",
+    "resolution_action": "Auto-resolved by AI Agent: sim swap safeguard workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI consumed telecom-risk signal and sudden credential reset pattern, then quarantined outbound transfer capability under ID-PROTECT-06.",
+    "resolved_at": "2026-07-21T10:00:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0060-ai17",
+    "customer_id": "CUST0028",
+    "subject": "Unrecognized device login (Refund Fraud Containment)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-06-29T20:00:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: refund fraud containment workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI linked refund destination mismatch and synthetic identity indicators, then held credit release and opened compliance note under REFUND-GUARD-04.",
+    "resolved_at": "2026-06-29T20:32:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0061-ai18",
+    "customer_id": "CUST0038",
+    "subject": "Wire transfer verification needed (Friendly Fraud Resolution)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-08-03T05:14:24.017279",
+    "assigned_agent": "Compliance Agent",
+    "resolution_action": "Auto-resolved by AI Agent: friendly fraud resolution workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched delivery confirmation, device fingerprint continuity, and historical dispute behavior; auto-resolved as non-fraud with explanation package.",
+    "resolved_at": "2026-08-03T06:38:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0062-ai19",
+    "customer_id": "CUST0092",
+    "subject": "Unrecognized device login (Wire Transfer Velocity Check)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-08-01T19:59:24.017279",
+    "assigned_agent": "Compliance Agent",
+    "resolution_action": "Auto-resolved by AI Agent: wire transfer velocity check workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI observed unusual same-day transfer fan-out and beneficiary novelty, triggering auto-hold and customer callback workflow.",
+    "resolved_at": "2026-08-01T21:19:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0063-ai20",
+    "customer_id": "CUST0059",
+    "subject": "Wire transfer verification needed (Travel Whitelist Auto-Resolve)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-08-05T10:37:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: travel whitelist auto-resolve workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched travel notice and known device confidence > 0.95, then resolved alert as legitimate without manual intervention.",
+    "resolved_at": "2026-08-05T10:55:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0064-ai21",
+    "customer_id": "CUST0002",
+    "subject": "Wire transfer verification needed (Account Takeover Prevention)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-07-18T19:13:24.017279",
+    "assigned_agent": "Fraud Detection Agent",
+    "resolution_action": "Auto-resolved by AI Agent: account takeover prevention workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI correlated failed-login bursts, new device enrollment, and geo mismatch; policy ATO-01 auto-locked risky sessions and forced step-up verification.",
+    "resolved_at": "2026-07-18T20:15:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0065-ai22",
+    "customer_id": "CUST0065",
+    "subject": "Wire transfer verification needed (Duplicate Settlement Reversal)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-07-05T02:51:24.017279",
+    "assigned_agent": "Compliance Agent",
+    "resolution_action": "Auto-resolved by AI Agent: duplicate settlement reversal workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched duplicate authorization and clearing records within 6 minutes and auto-reversed the duplicate debit under DISPUTE-DUP-02.",
+    "resolved_at": "2026-07-05T03:08:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0066-ai23",
+    "customer_id": "CUST0002",
+    "subject": "Unrecognized device login (Impossible Travel Block)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-25T04:00:24.017279",
+    "assigned_agent": "Fraud Detection Agent",
+    "resolution_action": "Auto-resolved by AI Agent: impossible travel block workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI detected impossible travel between two countries within a non-feasible window and blocked card-present usage under AML-RISK-07.",
+    "resolved_at": "2026-07-25T04:24:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0067-ai24",
+    "customer_id": "CUST0065",
+    "subject": "Card used in another country (Merchant MCC Risk Spike)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-08-05T04:24:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: merchant mcc risk spike workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI identified abnormal spend at high-risk MCC combined with off-hour activity and applied temporary spend controls pending customer confirmation.",
+    "resolved_at": "2026-08-05T05:14:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0068-ai25",
+    "customer_id": "CUST0008",
+    "subject": "Unrecognized device login (Card Not Present Abuse)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-07-01T06:18:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: card not present abuse workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI scored rapid CNP attempts with CVV mismatches and bot-like velocity, then auto-declined the sequence under CNP-SHIELD-03.",
+    "resolved_at": "2026-07-01T07:24:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0069-ai26",
+    "customer_id": "CUST0058",
+    "subject": "Unrecognized device login (SIM Swap Safeguard)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-06-24T16:48:24.017279",
+    "assigned_agent": "Fraud Detection Agent",
+    "resolution_action": "Auto-resolved by AI Agent: sim swap safeguard workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI consumed telecom-risk signal and sudden credential reset pattern, then quarantined outbound transfer capability under ID-PROTECT-06.",
+    "resolved_at": "2026-06-24T17:13:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0070-ai27",
+    "customer_id": "CUST0044",
+    "subject": "Wire transfer verification needed (Refund Fraud Containment)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-23T14:35:24.017279",
+    "assigned_agent": "Fraud Detection Agent",
+    "resolution_action": "Auto-resolved by AI Agent: refund fraud containment workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI linked refund destination mismatch and synthetic identity indicators, then held credit release and opened compliance note under REFUND-GUARD-04.",
+    "resolved_at": "2026-07-23T16:07:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0071-ai28",
+    "customer_id": "CUST0091",
+    "subject": "Suspicious transaction reported (Friendly Fraud Resolution)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-06-24T12:00:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: friendly fraud resolution workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched delivery confirmation, device fingerprint continuity, and historical dispute behavior; auto-resolved as non-fraud with explanation package.",
+    "resolved_at": "2026-06-24T13:00:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0072-ai29",
+    "customer_id": "CUST0048",
+    "subject": "Unrecognized device login (Wire Transfer Velocity Check)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-08-01T22:22:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: wire transfer velocity check workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI observed unusual same-day transfer fan-out and beneficiary novelty, triggering auto-hold and customer callback workflow.",
+    "resolved_at": "2026-08-01T23:41:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0073-ai30",
+    "customer_id": "CUST0048",
+    "subject": "Suspicious transaction reported (Travel Whitelist Auto-Resolve)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-08-01T09:43:24.017279",
+    "assigned_agent": "Fraud Detection Agent",
+    "resolution_action": "Auto-resolved by AI Agent: travel whitelist auto-resolve workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched travel notice and known device confidence > 0.95, then resolved alert as legitimate without manual intervention.",
+    "resolved_at": "2026-08-01T09:54:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0074-ai31",
+    "customer_id": "CUST0100",
+    "subject": "Card used in another country (Account Takeover Prevention)",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-08-01T16:08:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: account takeover prevention workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI correlated failed-login bursts, new device enrollment, and geo mismatch; policy ATO-01 auto-locked risky sessions and forced step-up verification.",
+    "resolved_at": "2026-08-01T16:47:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0075-ai32",
+    "customer_id": "CUST0099",
+    "subject": "Unable to log in (Duplicate Settlement Reversal)",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-06-30T13:53:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: duplicate settlement reversal workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched duplicate authorization and clearing records within 6 minutes and auto-reversed the duplicate debit under DISPUTE-DUP-02.",
+    "resolved_at": "2026-06-30T14:28:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0076-ai33",
+    "customer_id": "CUST0089",
+    "subject": "Unable to log in (Impossible Travel Block)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-30T10:56:24.017279",
+    "assigned_agent": "Compliance Agent",
+    "resolution_action": "Auto-resolved by AI Agent: impossible travel block workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI detected impossible travel between two countries within a non-feasible window and blocked card-present usage under AML-RISK-07.",
+    "resolved_at": "2026-07-30T11:45:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0077-ai34",
+    "customer_id": "CUST0016",
+    "subject": "Suspicious transaction reported (Merchant MCC Risk Spike)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-08-02T10:42:24.017279",
+    "assigned_agent": "Compliance Agent",
+    "resolution_action": "Auto-resolved by AI Agent: merchant mcc risk spike workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI identified abnormal spend at high-risk MCC combined with off-hour activity and applied temporary spend controls pending customer confirmation.",
+    "resolved_at": "2026-08-02T12:08:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0078-ai35",
+    "customer_id": "CUST0044",
+    "subject": "Unrecognized device login (Card Not Present Abuse)",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-16T05:08:24.017279",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: card not present abuse workflow executed",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI scored rapid CNP attempts with CVV mismatches and bot-like velocity, then auto-declined the sequence under CNP-SHIELD-03.",
+    "resolved_at": "2026-07-16T05:36:24.017279"
+  },
+  {
+    "ticket_id": "TICKET0043-5361",
+    "customer_id": "CUST0013",
+    "subject": "Escalation from alert ALERT0084",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-08-07T06:57:45.697626",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Auto-resolved by AI Agent: issued temporary card hold and customer notification",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "Risk score remained above 90 after verification; AI applied policy FRAUD-CRIT-01 to prevent repeated high-risk card attempts.",
+    "resolved_at": "2026-08-07T06:59:08.286978"
+  },
+  {
+    "ticket_id": "TICKET0042-fc21",
+    "customer_id": "CUST0008",
+    "subject": "Ticket: Dispute a charge",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-08-07T06:43:08.517705",
+    "assigned_agent": "Customer Support Agent",
+    "resolution_action": "Resolved by AI Agent: reversed duplicate charge and confirmed merchant mismatch",
+    "resolved_by": "ai",
+    "ai_resolution_reason": "AI matched the reported charge against duplicate settlement events and a merchant category mismatch, qualifying for auto-reversal under DISPUTE-DUP-02.",
+    "resolved_at": "2026-08-07T06:59:21.435662"
+  },
+  {
+    "ticket_id": "TICKET0041-71ab",
+    "customer_id": "CUST0008",
+    "subject": "Ticket: Dispute a charge",
+    "status": "open",
+    "priority": "Critical",
+    "created_at": "2026-08-07T06:43:05.963944",
+    "assigned_agent": "Customer Support Agent"
+  },
+  {
     "ticket_id": "TICKET0001",
     "customer_id": "CUST0047",
     "subject": "Card used in another country",
     "status": "in_progress",
     "priority": "Critical",
-    "created_at": "2026-07-16T08:24:57.816993",
+    "created_at": "2026-07-16T07:48:22.816993",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -14,7 +868,7 @@
     "subject": "Dispute a charge",
     "status": "resolved",
     "priority": "Critical",
-    "created_at": "2026-06-20T14:38:55.040680",
+    "created_at": "2026-06-20T14:02:20.040680",
     "assigned_agent": "Supervisor Agent"
   },
   {
@@ -23,7 +877,7 @@
     "subject": "Unable to log in",
     "status": "open",
     "priority": "Critical",
-    "created_at": "2026-06-20T01:16:14.775522",
+    "created_at": "2026-06-20T00:39:39.775522",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -32,7 +886,7 @@
     "subject": "Suspicious transaction reported",
     "status": "closed",
     "priority": "Low",
-    "created_at": "2026-06-25T05:07:40.283016",
+    "created_at": "2026-06-25T04:31:05.283016",
     "assigned_agent": "Customer Support Agent"
   },
   {
@@ -41,7 +895,7 @@
     "subject": "Unable to log in",
     "status": "resolved",
     "priority": "Medium",
-    "created_at": "2026-07-09T22:56:52.777086",
+    "created_at": "2026-07-09T22:20:17.777086",
     "assigned_agent": "Supervisor Agent"
   },
   {
@@ -50,7 +904,7 @@
     "subject": "Dispute a charge",
     "status": "open",
     "priority": "Medium",
-    "created_at": "2026-07-24T09:17:03.312936",
+    "created_at": "2026-07-24T08:40:28.312936",
     "assigned_agent": "Customer Support Agent"
   },
   {
@@ -59,7 +913,7 @@
     "subject": "Request account statement",
     "status": "resolved",
     "priority": "Critical",
-    "created_at": "2026-07-18T06:53:22.033505",
+    "created_at": "2026-07-18T06:16:47.033505",
     "assigned_agent": "Supervisor Agent"
   },
   {
@@ -68,7 +922,7 @@
     "subject": "Request account statement",
     "status": "resolved",
     "priority": "High",
-    "created_at": "2026-06-24T09:05:34.407394",
+    "created_at": "2026-06-24T08:28:59.407394",
     "assigned_agent": "Compliance Agent"
   },
   {
@@ -77,7 +931,7 @@
     "subject": "Unable to log in",
     "status": "closed",
     "priority": "Medium",
-    "created_at": "2026-06-17T11:15:54.340651",
+    "created_at": "2026-06-17T10:39:19.340651",
     "assigned_agent": "Supervisor Agent"
   },
   {
@@ -86,7 +940,7 @@
     "subject": "Card used in another country",
     "status": "closed",
     "priority": "Critical",
-    "created_at": "2026-06-14T21:17:37.681978",
+    "created_at": "2026-06-14T20:41:02.681978",
     "assigned_agent": "Compliance Agent"
   },
   {
@@ -95,7 +949,7 @@
     "subject": "Dispute a charge",
     "status": "in_progress",
     "priority": "High",
-    "created_at": "2026-08-04T12:25:12.114572",
+    "created_at": "2026-08-04T11:48:37.114572",
     "assigned_agent": "Customer Support Agent"
   },
   {
@@ -104,7 +958,7 @@
     "subject": "Request account statement",
     "status": "resolved",
     "priority": "Critical",
-    "created_at": "2026-07-11T14:19:54.958248",
+    "created_at": "2026-07-11T13:43:19.958248",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -113,7 +967,7 @@
     "subject": "Request account statement",
     "status": "resolved",
     "priority": "Medium",
-    "created_at": "2026-06-14T03:53:28.518015",
+    "created_at": "2026-06-14T03:16:53.518015",
     "assigned_agent": "Customer Support Agent"
   },
   {
@@ -122,7 +976,7 @@
     "subject": "Request account statement",
     "status": "resolved",
     "priority": "High",
-    "created_at": "2026-07-10T13:42:43.852699",
+    "created_at": "2026-07-10T13:06:08.852699",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -131,7 +985,7 @@
     "subject": "Suspicious transaction reported",
     "status": "closed",
     "priority": "High",
-    "created_at": "2026-07-10T23:33:26.565684",
+    "created_at": "2026-07-10T22:56:51.565684",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -140,7 +994,7 @@
     "subject": "Unable to log in",
     "status": "resolved",
     "priority": "Low",
-    "created_at": "2026-06-24T06:47:09.090646",
+    "created_at": "2026-06-24T06:10:34.090646",
     "assigned_agent": "Customer Support Agent"
   },
   {
@@ -149,7 +1003,7 @@
     "subject": "Unable to log in",
     "status": "closed",
     "priority": "High",
-    "created_at": "2026-08-03T14:47:27.212359",
+    "created_at": "2026-08-03T14:10:52.212359",
     "assigned_agent": "Customer Support Agent"
   },
   {
@@ -158,7 +1012,7 @@
     "subject": "Suspicious transaction reported",
     "status": "resolved",
     "priority": "High",
-    "created_at": "2026-07-26T06:14:05.714562",
+    "created_at": "2026-07-26T05:37:30.714562",
     "assigned_agent": "Customer Support Agent"
   },
   {
@@ -167,7 +1021,7 @@
     "subject": "Unable to log in",
     "status": "in_progress",
     "priority": "Medium",
-    "created_at": "2026-07-12T11:09:00.974651",
+    "created_at": "2026-07-12T10:32:25.974651",
     "assigned_agent": "Compliance Agent"
   },
   {
@@ -176,7 +1030,7 @@
     "subject": "Unable to log in",
     "status": "closed",
     "priority": "Medium",
-    "created_at": "2026-06-18T07:06:24.472852",
+    "created_at": "2026-06-18T06:29:49.472852",
     "assigned_agent": "Supervisor Agent"
   },
   {
@@ -185,7 +1039,7 @@
     "subject": "Card used in another country",
     "status": "open",
     "priority": "High",
-    "created_at": "2026-06-26T16:51:16.269490",
+    "created_at": "2026-06-26T16:14:41.269490",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -194,7 +1048,7 @@
     "subject": "Unable to log in",
     "status": "resolved",
     "priority": "Low",
-    "created_at": "2026-07-31T13:18:03.254851",
+    "created_at": "2026-07-31T12:41:28.254851",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -203,7 +1057,7 @@
     "subject": "Dispute a charge",
     "status": "resolved",
     "priority": "Low",
-    "created_at": "2026-07-10T10:54:06.696937",
+    "created_at": "2026-07-10T10:17:31.696937",
     "assigned_agent": "Customer Support Agent"
   },
   {
@@ -212,7 +1066,7 @@
     "subject": "Dispute a charge",
     "status": "in_progress",
     "priority": "Critical",
-    "created_at": "2026-06-11T01:30:59.536446",
+    "created_at": "2026-06-11T00:54:24.536446",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -221,7 +1075,7 @@
     "subject": "Suspicious transaction reported",
     "status": "resolved",
     "priority": "Critical",
-    "created_at": "2026-06-09T18:13:13.085274",
+    "created_at": "2026-06-09T17:36:38.085274",
     "assigned_agent": "Supervisor Agent"
   },
   {
@@ -230,7 +1084,7 @@
     "subject": "Request account statement",
     "status": "resolved",
     "priority": "Critical",
-    "created_at": "2026-08-01T05:12:42.841299",
+    "created_at": "2026-08-01T04:36:07.841299",
     "assigned_agent": "Supervisor Agent"
   },
   {
@@ -239,7 +1093,7 @@
     "subject": "Dispute a charge",
     "status": "resolved",
     "priority": "Medium",
-    "created_at": "2026-06-11T01:07:38.958921",
+    "created_at": "2026-06-11T00:31:03.958921",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -248,7 +1102,7 @@
     "subject": "Card used in another country",
     "status": "resolved",
     "priority": "Critical",
-    "created_at": "2026-07-01T00:51:15.530337",
+    "created_at": "2026-07-01T00:14:40.530337",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -257,7 +1111,7 @@
     "subject": "Request account statement",
     "status": "closed",
     "priority": "Low",
-    "created_at": "2026-06-13T04:28:58.905136",
+    "created_at": "2026-06-13T03:52:23.905136",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -266,7 +1120,7 @@
     "subject": "Dispute a charge",
     "status": "open",
     "priority": "Medium",
-    "created_at": "2026-07-01T12:49:51.487187",
+    "created_at": "2026-07-01T12:13:16.487187",
     "assigned_agent": "Compliance Agent"
   },
   {
@@ -275,7 +1129,7 @@
     "subject": "Request account statement",
     "status": "resolved",
     "priority": "Low",
-    "created_at": "2026-07-20T07:12:23.645633",
+    "created_at": "2026-07-20T06:35:48.645633",
     "assigned_agent": "Customer Support Agent"
   },
   {
@@ -284,7 +1138,7 @@
     "subject": "Request account statement",
     "status": "resolved",
     "priority": "Low",
-    "created_at": "2026-07-31T11:54:29.237544",
+    "created_at": "2026-07-31T11:17:54.237544",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -293,7 +1147,7 @@
     "subject": "Unable to log in",
     "status": "resolved",
     "priority": "High",
-    "created_at": "2026-07-15T18:54:31.056256",
+    "created_at": "2026-07-15T18:17:56.056256",
     "assigned_agent": "Compliance Agent"
   },
   {
@@ -302,7 +1156,7 @@
     "subject": "Dispute a charge",
     "status": "open",
     "priority": "Medium",
-    "created_at": "2026-07-19T10:15:02.465576",
+    "created_at": "2026-07-19T09:38:27.465576",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -311,7 +1165,7 @@
     "subject": "Dispute a charge",
     "status": "open",
     "priority": "High",
-    "created_at": "2026-07-04T18:28:30.200387",
+    "created_at": "2026-07-04T17:51:55.200387",
     "assigned_agent": "Compliance Agent"
   },
   {
@@ -320,7 +1174,7 @@
     "subject": "Card used in another country",
     "status": "resolved",
     "priority": "Low",
-    "created_at": "2026-06-29T08:34:11.438593",
+    "created_at": "2026-06-29T07:57:36.438593",
     "assigned_agent": "Customer Support Agent"
   },
   {
@@ -329,7 +1183,7 @@
     "subject": "Unable to log in",
     "status": "open",
     "priority": "Low",
-    "created_at": "2026-06-27T23:01:44.583766",
+    "created_at": "2026-06-27T22:25:09.583766",
     "assigned_agent": "Supervisor Agent"
   },
   {
@@ -338,7 +1192,7 @@
     "subject": "Request account statement",
     "status": "resolved",
     "priority": "Critical",
-    "created_at": "2026-06-19T21:48:09.764969",
+    "created_at": "2026-06-19T21:11:34.764969",
     "assigned_agent": "Compliance Agent"
   },
   {
@@ -347,7 +1201,7 @@
     "subject": "Dispute a charge",
     "status": "closed",
     "priority": "Medium",
-    "created_at": "2026-07-23T12:34:13.799906",
+    "created_at": "2026-07-23T11:57:38.799906",
     "assigned_agent": "Fraud Detection Agent"
   },
   {
@@ -356,7 +1210,7 @@
     "subject": "Dispute a charge",
     "status": "resolved",
     "priority": "Critical",
-    "created_at": "2026-07-26T13:51:45.283190",
+    "created_at": "2026-07-26T13:15:10.283190",
     "assigned_agent": "Fraud Detection Agent"
   }
 ]
