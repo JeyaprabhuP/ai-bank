@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cust_001",
+    "name": "Alice Johnson",
+    "email": "alice.j@example.com",
+    "tier": "gold"
+  },
+  {
+    "id": "cust_002",
+    "name": "Bob Lee",
+    "email": "bob.lee@example.com",
+    "tier": "standard"
+  }
+]

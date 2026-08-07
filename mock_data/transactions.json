@@ -1,0 +1,9 @@
+[
+  {
+    "id": "txn_9001",
+    "account_number": "1001-1111",
+    "amount": -200,
+    "description": "Payment to ACME",
+    "date": "2026-07-01"
+  }
+]

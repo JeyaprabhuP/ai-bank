@@ -1,0 +1,14 @@
+{
+  "acc_1001": {
+    "account_number": "1001-1111",
+    "customer_id": "cust_001",
+    "balance": 2500.75,
+    "currency": "USD"
+  },
+  "acc_1002": {
+    "account_number": "1002-2222",
+    "customer_id": "cust_002",
+    "balance": 120.00,
+    "currency": "USD"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "faq_001",
+    "question": "How do I reset my password?",
+    "answer": "Go to account settings > security > reset password. You will receive a confirmation email."
+  },
+  {
+    "id": "faq_002",
+    "question": "What's the charge for international transfer?",
+    "answer": "See International Transfer Fees in policies: flat $15 + 0.5% of amount."
+  }
+]
