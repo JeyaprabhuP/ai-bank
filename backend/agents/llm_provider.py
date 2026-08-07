@@ -50,6 +50,40 @@ class OpenAIProvider(LLMProvider):
         return response.choices[0].message.content
 
 
+class GeminiProvider(LLMProvider):
+    """Google Gemini via the google-genai SDK.
+
+    Requires `pip install google-genai` and a GEMINI_API_KEY (or
+    GOOGLE_API_KEY) environment variable. Get a key at
+    https://aistudio.google.com/apikey
+    """
+
+    def __init__(self, model: str = None):
+        from google import genai
+        api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+        if not api_key:
+            raise RuntimeError("GEMINI_API_KEY (or GOOGLE_API_KEY) is not set")
+        self.client = genai.Client(api_key=api_key)
+        self.model = (
+            model
+            or os.environ.get("GEMINI_MODEL")
+            or os.environ.get("LLM_MODEL", "gemini-2.0-flash")
+        )
+
+    def generate(self, system_prompt: str, user_prompt: str) -> str:
+        from google.genai import types
+
+        response = self.client.models.generate_content(
+            model=self.model,
+            contents=user_prompt,
+            config=types.GenerateContentConfig(
+                system_instruction=system_prompt,
+                max_output_tokens=400,
+            ),
+        )
+        return response.text
+
+
 class OllamaProvider(LLMProvider):
     """Example of swapping in a local model. Requires `requests` and a running Ollama server."""
 
@@ -74,6 +108,13 @@ def get_llm_provider() -> LLMProvider:
         return MockLLMProvider()
     if backend == "ollama":
         return OllamaProvider()
+    if backend == "gemini" or (
+        backend == "auto" and (os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"))
+    ):
+        try:
+            return GeminiProvider()
+        except Exception:
+            return MockLLMProvider()
     if backend == "openai" or (backend == "auto" and os.environ.get("OPENAI_API_KEY")):
         try:
             return OpenAIProvider()
