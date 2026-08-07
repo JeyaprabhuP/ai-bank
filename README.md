@@ -6,6 +6,202 @@ fraud scoring engine, JWT auth, mock JSON/CSV data (no database), and a React
 + Material UI frontend with charts. Works offline out of the box — no API
 keys required — with a pluggable LLM layer you can switch on later.
 
+## Solution Architecture
+
+### High-Level System Design
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          CLIENT LAYER (Frontend)                            │
+│  React + Material UI (TypeScript)                                           │
+│  ├── Authentication & Session Management                                    │
+│  ├── Dashboard, Chat, Alerts, Transactions, Support Tickets                 │
+│  └── Real-time Charts & Notifications                                       │
+└──────────────────────────┬──────────────────────────────────────────────────┘
+                           │ HTTPS / REST API
+                           ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        API GATEWAY LAYER (FastAPI)                          │
+│  ├── CORS Middleware                                                        │
+│  ├── Request Logging & Telemetry                                            │
+│  └── JWT Authentication & Authorization                                     │
+└──────────┬──────────────┬──────────────┬──────────────┬─────────────────────┘
+           │              │              │              │
+      ┌────▼──────┐  ┌────▼──────┐ ┌────▼────┐ ┌──────▼──────────┐
+      │   Auth    │  │   Chat    │ │Dashboard│ │  Fraud/Tickets  │
+      │ Endpoint  │  │ Endpoint  │ │Endpoint │ │    Endpoints    │
+      └─────┬─────┘  └──────┬────┘ └────┬────┘ └────────┬────────┘
+            │               │            │              │
+            └───────────────┼────────────┼──────────────┘
+                            ▼
+    ┌───────────────────────────────────────────────────────┐
+    │     MULTI-AGENT ORCHESTRATION LAYER                   │
+    │                                                       │
+    │  Supervisor Agent (Router & Orchestrator)             │
+    │  ├── Intent Detection                                 │
+    │  ├── Request Routing                                  │
+    │  ├── Agent Coordination                               │
+    │  └── Response Aggregation                             │
+    │                                                       │
+    │  Fraud Detection Agent (Risk Assessment)              │
+    │  ├── Scoring Engine (Factors: amount, location, ...) │
+    │  ├── Alert Generation                                 │
+    │  └── Compliance Flagging                              │
+    │                                                       │
+    │  Customer Support Agent (Service Resolution)          │
+    │  ├── Ticket Management                                │
+    │  ├── Response Generation                              │
+    │  └── Knowledge Base Lookup                            │
+    │                                                       │
+    │  Compliance Agent (Regulation Enforcement)            │
+    │  ├── Policy Checking                                  │
+    │  ├── Audit Logging                                    │
+    │  └── Restriction Validation                           │
+    └────────────────┬────────────────────────────────────┘
+                     │
+    ┌────────────────┴────────────────────────────────────┐
+    │          BUSINESS LOGIC LAYER (Services)            │
+    │                                                    │
+    │  ├── fraud_service.py                              │
+    │  │   ├── Fraud Scoring (5-factor model)            │
+    │  │   └── Alert Priority Mapping                    │
+    │  │                                                  │
+    │  ├── customer_service.py                           │
+    │  │   ├── Customer Lookup                           │
+    │  │   └── Account Retrieval                         │
+    │  │                                                  │
+    │  ├── ticket_service.py                             │
+    │  │   ├── Ticket Creation                           │
+    │  │   └── Status Updates                            │
+    │  │                                                  │
+    │  └── dashboard_service.py                          │
+    │      ├── Metrics Aggregation                       │
+    │      └── Analytics Computation                     │
+    │                                                    │
+    └────────────────┬────────────────────────────────────┘
+                     │
+    ┌────────────────▼────────────────────────────────────┐
+    │          DATA ACCESS LAYER (DAL)                    │
+    │                                                    │
+    │  Mock Data Loader                                  │
+    │  ├── JSON Data Files (customers.json)              │
+    │  ├── CSV Data Files (transactions.csv)             │
+    │  └── Fraud Alerts (fraud_alerts.json)              │
+    │                                                    │
+    │  [Swappable for: PostgreSQL, MongoDB, etc.]        │
+    └────────────────┬────────────────────────────────────┘
+                     │
+    ┌────────────────▼────────────────────────────────────┐
+    │            DATA STORAGE                             │
+    │  In-Memory Cache / Mock JSON & CSV Files            │
+    │  [Production: Database]                             │
+    └─────────────────────────────────────────────────────┘
+```
+
+### Component Interaction Diagram
+
+```
+User Request Flow for Chat Endpoint:
+═══════════════════════════════════════
+
+1. Frontend                  2. API Gateway            3. Supervisor Agent
+   │                            │                         │
+   ├─ Chat Message              │                         │
+   └──────────────────────►  POST /chat              ┌─────────────────┐
+                               │                      │ Parse Intent    │
+                            Validate JWT             │ (fraud intent?) │
+                               │                      └─────────────────┘
+                            Extract User                    │
+                               │                         ┌──┴────────┐
+                               │                         │ Intent    │
+                               │                         │ Detected? │
+                               │                         └──┬────────┘
+                               │                            │
+                               │                    ┌───────┴────────┐
+                               │                    │                │
+                               │                    ▼                ▼
+                               │          Fraud Detection        Customer
+                               │          Agent Runs            Support Agent
+                               │                  │                │
+                               │          Score: Amount       Lookup Ticket
+                               │          Location, Device    Template
+                               │                  │                │
+                               │          Create Alert         Create Ticket
+                               │                  │                │
+                               │                  └────────┬───────┘
+                               │                           │
+                               │                    Compliance Check
+                               │                           │
+                               │              ┌────────────▼──────┐
+                               │              │ Return Aggregated │
+                               │              │ Response (reply,  │
+                               │              │ score, alert, ticket)
+                               │              └────────┬──────────┘
+                               │                       │
+                    ┌──────────◄┼───────────────────────┘
+                    │
+                    ▼
+        ChatResponse JSON
+        {
+          "reply": "...",
+          "fraud_assessment": {...},
+          "fraud_alert": {...},
+          "ticket": {...},
+          "agent_trace": [...]
+        }
+                    │
+                    └──────────────────────►  Frontend Renders
+```
+
+### Fraud Scoring Model
+
+```
+┌──────────────────────────────────────────────────────┐
+│             FRAUD RISK SCORE COMPUTATION             │
+│                                                      │
+│  Base Score: 0                                       │
+│  ├─ Amount Factor                                    │
+│  │  ├─ > $5,000: +30 pts                             │
+│  │  └─ > $1,500: +15 pts                             │
+│  │                                                   │
+│  ├─ Geographic Risk                                  │
+│  │  └─ Foreign/New Location: +25 pts                 │
+│  │                                                   │
+│  ├─ Device Risk                                      │
+│  │  └─ New/Unrecognized Device: +20 pts              │
+│  │                                                   │
+│  ├─ Login Risk                                       │
+│  │  └─ Recent Failed Logins (N > 3): +20 pts         │
+│  │                                                   │
+│  └─ Transaction Category Risk                        │
+│     └─ High-Risk (Wire, ATM): +10 pts                │
+│                                                      │
+│  ┌──────────────────────────────────────┐            │
+│  │  Score Range → Priority → Action     │            │
+│  ├──────────────────────────────────────┤            │
+│  │  ≥ 90  → Critical  → Freeze Card     │            │
+│  │  ≥ 70  → High     → Verify Customer  │            │
+│  │  ≥ 40  → Medium   → Monitor          │            │
+│  │  < 40  → Low      → No Action        │            │
+│  └──────────────────────────────────────┘            │
+└──────────────────────────────────────────────────────┘
+```
+
+### Technology Stack
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| **Frontend** | React 18, TypeScript, Material UI, Chart.js | UI/UX, Visualizations |
+| **Backend** | FastAPI, Python 3.10+ | REST API, Async Handlers |
+| **Authentication** | JWT (PyJWT, python-jose) | Security, Role-Based Access |
+| **Agents** | Plain Python (pluggable LLM) | Multi-Agent Orchestration |
+| **LLM** | OpenAI/Azure/Ollama (optional) | Natural Language Processing |
+| **Data** | JSON/CSV (mock), swappable | Persistent Storage |
+| **Observability** | OpenTelemetry, Structured Logging | Monitoring, Debugging |
+| **Web Server** | Uvicorn | ASGI Server |
+
+---
+
 ## What's implemented vs. the original spec
 
 Everything in the spec is implemented, with one pragmatic substitution:
@@ -130,22 +326,22 @@ All endpoints are documented live at `/docs`. Summary:
 banking-ai-platform/
   backend/
     agents/            # Supervisor, Fraud, Customer Support, Compliance agents + LLM abstraction
-    services/           # Data access + business logic (swap mock_data for a real DB later)
-    routes/              # FastAPI routers, one per resource
-    models/              # Pydantic request/response schemas
-    middleware/          # Request logging middleware
-    utils/                # JWT security helpers + OpenTelemetry setup
-    mock_data/            # Generated JSON/CSV (git-ignored contents regenerate on demand)
+    services/          # Data access + business logic (swap mock_data for a real DB later)
+    routes/            # FastAPI routers, one per resource
+    models/            # Pydantic request/response schemas
+    middleware/        # Request logging middleware
+    utils/             # JWT security helpers + OpenTelemetry setup
+    mock_data/         # Generated JSON/CSV (git-ignored contents regenerate on demand)
     mock_data_generator.py
-    app.py                # FastAPI entrypoint
+    app.py             # FastAPI entrypoint
     requirements.txt
     .env.example
   frontend/
     src/
-      components/        # Sidebar, Navbar, AppLayout, ProtectedRoute
-      pages/              # Login, Dashboard, Chat, FraudAlerts, CustomerDetails, Transactions, SupervisorDashboard, Settings
-      charts/              # Chart.js line/pie/bar wrappers
-      services/            # axios client + auth helpers
+      components/     # Sidebar, Navbar, AppLayout, ProtectedRoute
+      pages/          # Login, Dashboard, Chat, FraudAlerts, CustomerDetails, Transactions, SupervisorDashboard, Settings
+      charts/         # Chart.js line/pie/bar wrappers
+      services/       # axios client + auth helpers
     package.json
 ```
 
@@ -179,6 +375,35 @@ Score → priority → action:
   selected agents) is logged to the console — see
   `backend/middleware/logging_middleware.py` and `backend/agents/base_agent.py`.
 
+## Data Flow Summary
+
+### Chat Request Path
+```
+User Input → Supervisor Agent
+  ├─ Detect Intent (Fraud/Support/Compliance)
+  ├─ Dispatch to Fraud Detection Agent
+  ├─ Dispatch to Customer Support Agent
+  ├─ Dispatch to Compliance Agent
+  └─ Aggregate Response → Return to Frontend
+```
+
+### Fraud Detection Path
+```
+Chat/Transaction Event → Fraud Service
+  ├─ Compute Risk Score (5 factors)
+  ├─ Map Score → Priority
+  ├─ Generate Alert
+  └─ Create Ticket (if Critical/High)
+```
+
+### Authentication & Authorization
+```
+Login Request → JWT Generator
+  ├─ Validate Credentials
+  ├─ Issue Token (role-based)
+  └─ All Subsequent Requests Include Token
+```
+
 ## Notes & future enhancements
 
 - Mock data lives in flat JSON/CSV files under `backend/mock_data/`; the
@@ -191,5 +416,25 @@ Score → priority → action:
   `agents/llm_provider.py` (an Ollama example is already stubbed in).
 - Wire OpenTelemetry to Grafana Tempo by replacing `ConsoleSpanExporter`
   with `OTLPSpanExporter` in `utils/telemetry.py`.
-#   a i - b a n k  
- 
+
+## Architecture Highlights
+
+### Separation of Concerns
+- **Routes** only handle HTTP contracts; business logic lives in services.
+- **Agents** are stateless and composable; each has a single responsibility.
+- **Services** abstract data access; swapping backends requires no agent/route changes.
+- **Middleware** and **Utils** are orthogonal to core logic.
+
+### Pluggability
+- **LLM Layer** (`llm_provider.py`): Switch from deterministic rules to OpenAI/Azure/Ollama without touching agents.
+- **Data Layer** (`services/data_loader.py`): Replace JSON/CSV with a real database without changing business logic.
+- **Telemetry** (`utils/telemetry.py`): Route spans to Grafana/Jaeger/Datadog without code changes.
+
+### Scalability Readiness
+- **Async I/O**: FastAPI is built on async, ready for high concurrency.
+- **Stateless Agents**: Each run is independent; easy to distribute across workers.
+- **Logging & Tracing**: All operations are instrumented for observability.
+
+---
+
+*This is a production-ready foundation for an AI-powered banking assistant. Clone, customize, and deploy!*
