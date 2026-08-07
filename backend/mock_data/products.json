@@ -1,0 +1,26 @@
+[
+  {
+    "product_id": "PRD1",
+    "name": "Everyday Checking",
+    "type": "checking",
+    "apy": 0.01
+  },
+  {
+    "product_id": "PRD2",
+    "name": "High-Yield Savings",
+    "type": "savings",
+    "apy": 0.045
+  },
+  {
+    "product_id": "PRD3",
+    "name": "Platinum Rewards Credit Card",
+    "type": "credit_card",
+    "apy": 0.219
+  },
+  {
+    "product_id": "PRD4",
+    "name": "Secure Travel Card",
+    "type": "credit_card",
+    "apy": 0.189
+  }
+]

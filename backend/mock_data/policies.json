@@ -1,0 +1,6 @@
+[
+  {"policy_id": "POL-01", "title": "Overdraft Fee Policy", "text": "Overdraft transactions incur a flat fee of 25 USD per occurrence, capped at 3 fees per day."},
+  {"policy_id": "POL-02", "title": "International Transfer Policy", "text": "International wire transfers are processed within 1-3 business days and incur a 15 USD flat fee."},
+  {"policy_id": "POL-03", "title": "Card Replacement Policy", "text": "Lost or stolen cards are replaced free of charge within 5-7 business days; expedited shipping costs 20 USD."},
+  {"policy_id": "POL-04", "title": "Interest Rate Policy", "text": "Savings accounts earn 2.1% APY, compounded monthly, subject to change with 30 days notice."}
+]

@@ -1,0 +1,6 @@
+[
+  {"session_id": "SESS-9001", "customer_id": "CUST-1001", "role": "user", "content": "What's my checking balance?"},
+  {"session_id": "SESS-9001", "customer_id": "CUST-1001", "role": "assistant", "content": "Your checking balance is 4210.55 USD."},
+  {"session_id": "SESS-9002", "customer_id": "CUST-1002", "role": "user", "content": "How do I dispute a charge?"},
+  {"session_id": "SESS-9002", "customer_id": "CUST-1002", "role": "assistant", "content": "You can dispute a charge from the Transactions tab within 60 days of the statement date."}
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "rule_id": "REG-CTR-1",
+    "description": "Transactions over $10,000 must be reported (Currency Transaction Report)."
+  },
+  {
+    "rule_id": "REG-KYC-2",
+    "description": "Customer identity must be verified before high-risk actions are taken."
+  },
+  {
+    "rule_id": "REG-AML-3",
+    "description": "Repeated foreign transactions within 24h must be escalated for AML review."
+  },
+  {
+    "rule_id": "REG-PCI-4",
+    "description": "Card data must never be exposed in plaintext in logs or responses."
+  }
+]

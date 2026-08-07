@@ -1,0 +1,6 @@
+[
+  {"transaction_id": "TXN-3001", "customer_id": "CUST-1001", "amount": 85.20, "currency": "USD", "merchant_category": "groceries", "date": "2026-08-01"},
+  {"transaction_id": "TXN-3002", "customer_id": "CUST-1001", "amount": 1200.00, "currency": "USD", "merchant_category": "rent", "date": "2026-08-02"},
+  {"transaction_id": "TXN-3003", "customer_id": "CUST-1002", "amount": 45.00, "currency": "USD", "merchant_category": "dining", "date": "2026-08-03"},
+  {"transaction_id": "TXN-3004", "customer_id": "CUST-1003", "amount": 610.00, "currency": "CAD", "merchant_category": "electronics", "date": "2026-08-04"}
+]

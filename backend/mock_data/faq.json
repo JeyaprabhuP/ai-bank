@@ -1,0 +1,22 @@
+[
+  {
+    "question": "How do I report a suspicious transaction?",
+    "answer": "You can report it directly in this chat, or call the number on the back of your card."
+  },
+  {
+    "question": "How long does a dispute take to resolve?",
+    "answer": "Most disputes are resolved within 5-10 business days."
+  },
+  {
+    "question": "How do I freeze my card?",
+    "answer": "Say 'freeze my card' in chat or use the Settings page, and our Fraud Agent will action it immediately."
+  },
+  {
+    "question": "What do I do if I travel abroad?",
+    "answer": "Notify us in advance via chat so foreign transactions aren't flagged unnecessarily."
+  },
+  {
+    "question": "How is my fraud risk score calculated?",
+    "answer": "It factors in transaction amount, location, device recognition, and recent login activity."
+  }
+]

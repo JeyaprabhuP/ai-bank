@@ -1,0 +1,362 @@
+[
+  {
+    "ticket_id": "TICKET0001",
+    "customer_id": "CUST0047",
+    "subject": "Card used in another country",
+    "status": "in_progress",
+    "priority": "Critical",
+    "created_at": "2026-07-16T08:24:57.816993",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0002",
+    "customer_id": "CUST0018",
+    "subject": "Dispute a charge",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-06-20T14:38:55.040680",
+    "assigned_agent": "Supervisor Agent"
+  },
+  {
+    "ticket_id": "TICKET0003",
+    "customer_id": "CUST0067",
+    "subject": "Unable to log in",
+    "status": "open",
+    "priority": "Critical",
+    "created_at": "2026-06-20T01:16:14.775522",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0004",
+    "customer_id": "CUST0099",
+    "subject": "Suspicious transaction reported",
+    "status": "closed",
+    "priority": "Low",
+    "created_at": "2026-06-25T05:07:40.283016",
+    "assigned_agent": "Customer Support Agent"
+  },
+  {
+    "ticket_id": "TICKET0005",
+    "customer_id": "CUST0044",
+    "subject": "Unable to log in",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-07-09T22:56:52.777086",
+    "assigned_agent": "Supervisor Agent"
+  },
+  {
+    "ticket_id": "TICKET0006",
+    "customer_id": "CUST0008",
+    "subject": "Dispute a charge",
+    "status": "open",
+    "priority": "Medium",
+    "created_at": "2026-07-24T09:17:03.312936",
+    "assigned_agent": "Customer Support Agent"
+  },
+  {
+    "ticket_id": "TICKET0007",
+    "customer_id": "CUST0081",
+    "subject": "Request account statement",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-18T06:53:22.033505",
+    "assigned_agent": "Supervisor Agent"
+  },
+  {
+    "ticket_id": "TICKET0008",
+    "customer_id": "CUST0088",
+    "subject": "Request account statement",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-06-24T09:05:34.407394",
+    "assigned_agent": "Compliance Agent"
+  },
+  {
+    "ticket_id": "TICKET0009",
+    "customer_id": "CUST0002",
+    "subject": "Unable to log in",
+    "status": "closed",
+    "priority": "Medium",
+    "created_at": "2026-06-17T11:15:54.340651",
+    "assigned_agent": "Supervisor Agent"
+  },
+  {
+    "ticket_id": "TICKET0010",
+    "customer_id": "CUST0058",
+    "subject": "Card used in another country",
+    "status": "closed",
+    "priority": "Critical",
+    "created_at": "2026-06-14T21:17:37.681978",
+    "assigned_agent": "Compliance Agent"
+  },
+  {
+    "ticket_id": "TICKET0011",
+    "customer_id": "CUST0084",
+    "subject": "Dispute a charge",
+    "status": "in_progress",
+    "priority": "High",
+    "created_at": "2026-08-04T12:25:12.114572",
+    "assigned_agent": "Customer Support Agent"
+  },
+  {
+    "ticket_id": "TICKET0012",
+    "customer_id": "CUST0005",
+    "subject": "Request account statement",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-11T14:19:54.958248",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0013",
+    "customer_id": "CUST0067",
+    "subject": "Request account statement",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-06-14T03:53:28.518015",
+    "assigned_agent": "Customer Support Agent"
+  },
+  {
+    "ticket_id": "TICKET0014",
+    "customer_id": "CUST0066",
+    "subject": "Request account statement",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-07-10T13:42:43.852699",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0015",
+    "customer_id": "CUST0003",
+    "subject": "Suspicious transaction reported",
+    "status": "closed",
+    "priority": "High",
+    "created_at": "2026-07-10T23:33:26.565684",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0016",
+    "customer_id": "CUST0100",
+    "subject": "Unable to log in",
+    "status": "resolved",
+    "priority": "Low",
+    "created_at": "2026-06-24T06:47:09.090646",
+    "assigned_agent": "Customer Support Agent"
+  },
+  {
+    "ticket_id": "TICKET0017",
+    "customer_id": "CUST0048",
+    "subject": "Unable to log in",
+    "status": "closed",
+    "priority": "High",
+    "created_at": "2026-08-03T14:47:27.212359",
+    "assigned_agent": "Customer Support Agent"
+  },
+  {
+    "ticket_id": "TICKET0018",
+    "customer_id": "CUST0007",
+    "subject": "Suspicious transaction reported",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-07-26T06:14:05.714562",
+    "assigned_agent": "Customer Support Agent"
+  },
+  {
+    "ticket_id": "TICKET0019",
+    "customer_id": "CUST0059",
+    "subject": "Unable to log in",
+    "status": "in_progress",
+    "priority": "Medium",
+    "created_at": "2026-07-12T11:09:00.974651",
+    "assigned_agent": "Compliance Agent"
+  },
+  {
+    "ticket_id": "TICKET0020",
+    "customer_id": "CUST0039",
+    "subject": "Unable to log in",
+    "status": "closed",
+    "priority": "Medium",
+    "created_at": "2026-06-18T07:06:24.472852",
+    "assigned_agent": "Supervisor Agent"
+  },
+  {
+    "ticket_id": "TICKET0021",
+    "customer_id": "CUST0067",
+    "subject": "Card used in another country",
+    "status": "open",
+    "priority": "High",
+    "created_at": "2026-06-26T16:51:16.269490",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0022",
+    "customer_id": "CUST0100",
+    "subject": "Unable to log in",
+    "status": "resolved",
+    "priority": "Low",
+    "created_at": "2026-07-31T13:18:03.254851",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0023",
+    "customer_id": "CUST0092",
+    "subject": "Dispute a charge",
+    "status": "resolved",
+    "priority": "Low",
+    "created_at": "2026-07-10T10:54:06.696937",
+    "assigned_agent": "Customer Support Agent"
+  },
+  {
+    "ticket_id": "TICKET0024",
+    "customer_id": "CUST0008",
+    "subject": "Dispute a charge",
+    "status": "in_progress",
+    "priority": "Critical",
+    "created_at": "2026-06-11T01:30:59.536446",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0025",
+    "customer_id": "CUST0058",
+    "subject": "Suspicious transaction reported",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-06-09T18:13:13.085274",
+    "assigned_agent": "Supervisor Agent"
+  },
+  {
+    "ticket_id": "TICKET0026",
+    "customer_id": "CUST0034",
+    "subject": "Request account statement",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-08-01T05:12:42.841299",
+    "assigned_agent": "Supervisor Agent"
+  },
+  {
+    "ticket_id": "TICKET0027",
+    "customer_id": "CUST0089",
+    "subject": "Dispute a charge",
+    "status": "resolved",
+    "priority": "Medium",
+    "created_at": "2026-06-11T01:07:38.958921",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0028",
+    "customer_id": "CUST0065",
+    "subject": "Card used in another country",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-01T00:51:15.530337",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0029",
+    "customer_id": "CUST0091",
+    "subject": "Request account statement",
+    "status": "closed",
+    "priority": "Low",
+    "created_at": "2026-06-13T04:28:58.905136",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0030",
+    "customer_id": "CUST0059",
+    "subject": "Dispute a charge",
+    "status": "open",
+    "priority": "Medium",
+    "created_at": "2026-07-01T12:49:51.487187",
+    "assigned_agent": "Compliance Agent"
+  },
+  {
+    "ticket_id": "TICKET0031",
+    "customer_id": "CUST0016",
+    "subject": "Request account statement",
+    "status": "resolved",
+    "priority": "Low",
+    "created_at": "2026-07-20T07:12:23.645633",
+    "assigned_agent": "Customer Support Agent"
+  },
+  {
+    "ticket_id": "TICKET0032",
+    "customer_id": "CUST0048",
+    "subject": "Request account statement",
+    "status": "resolved",
+    "priority": "Low",
+    "created_at": "2026-07-31T11:54:29.237544",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0033",
+    "customer_id": "CUST0016",
+    "subject": "Unable to log in",
+    "status": "resolved",
+    "priority": "High",
+    "created_at": "2026-07-15T18:54:31.056256",
+    "assigned_agent": "Compliance Agent"
+  },
+  {
+    "ticket_id": "TICKET0034",
+    "customer_id": "CUST0038",
+    "subject": "Dispute a charge",
+    "status": "open",
+    "priority": "Medium",
+    "created_at": "2026-07-19T10:15:02.465576",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0035",
+    "customer_id": "CUST0076",
+    "subject": "Dispute a charge",
+    "status": "open",
+    "priority": "High",
+    "created_at": "2026-07-04T18:28:30.200387",
+    "assigned_agent": "Compliance Agent"
+  },
+  {
+    "ticket_id": "TICKET0036",
+    "customer_id": "CUST0028",
+    "subject": "Card used in another country",
+    "status": "resolved",
+    "priority": "Low",
+    "created_at": "2026-06-29T08:34:11.438593",
+    "assigned_agent": "Customer Support Agent"
+  },
+  {
+    "ticket_id": "TICKET0037",
+    "customer_id": "CUST0071",
+    "subject": "Unable to log in",
+    "status": "open",
+    "priority": "Low",
+    "created_at": "2026-06-27T23:01:44.583766",
+    "assigned_agent": "Supervisor Agent"
+  },
+  {
+    "ticket_id": "TICKET0038",
+    "customer_id": "CUST0062",
+    "subject": "Request account statement",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-06-19T21:48:09.764969",
+    "assigned_agent": "Compliance Agent"
+  },
+  {
+    "ticket_id": "TICKET0039",
+    "customer_id": "CUST0049",
+    "subject": "Dispute a charge",
+    "status": "closed",
+    "priority": "Medium",
+    "created_at": "2026-07-23T12:34:13.799906",
+    "assigned_agent": "Fraud Detection Agent"
+  },
+  {
+    "ticket_id": "TICKET0040",
+    "customer_id": "CUST0065",
+    "subject": "Dispute a charge",
+    "status": "resolved",
+    "priority": "Critical",
+    "created_at": "2026-07-26T13:51:45.283190",
+    "assigned_agent": "Fraud Detection Agent"
+  }
+]

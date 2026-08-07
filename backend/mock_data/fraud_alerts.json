@@ -1,0 +1,1802 @@
+[
+  {
+    "alert_id": "ALERT0001",
+    "transaction_id": "TXN00488",
+    "customer_id": "CUST0075",
+    "customer_name": "Amy Garcia",
+    "risk_score": 49,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-07-27T10:28:15.078091",
+    "factors": {
+      "amount": 4222.57,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0002",
+    "transaction_id": "TXN00275",
+    "customer_id": "CUST0100",
+    "customer_name": "Melanie Allen",
+    "risk_score": 57,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-07-20T02:28:15.076331",
+    "factors": {
+      "amount": 6880.93,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0003",
+    "transaction_id": "TXN00577",
+    "customer_id": "CUST0029",
+    "customer_name": "David Scott",
+    "risk_score": 52,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-05-18T00:28:15.078917",
+    "factors": {
+      "amount": 7642.49,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0004",
+    "transaction_id": "TXN00615",
+    "customer_id": "CUST0050",
+    "customer_name": "Caleb Hernandez",
+    "risk_score": 64,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-06-21T01:28:15.079183",
+    "factors": {
+      "amount": 5577.8,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0005",
+    "transaction_id": "TXN00434",
+    "customer_id": "CUST0012",
+    "customer_name": "Debra Cobb",
+    "risk_score": 45,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-07-17T22:28:15.077711",
+    "factors": {
+      "amount": 2959.11,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0006",
+    "transaction_id": "TXN00093",
+    "customer_id": "CUST0060",
+    "customer_name": "Jeremy Padilla",
+    "risk_score": 61,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-07-29T20:28:15.074727",
+    "factors": {
+      "amount": 2616.28,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0007",
+    "transaction_id": "TXN00775",
+    "customer_id": "CUST0028",
+    "customer_name": "Katherine Weaver",
+    "risk_score": 0,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "resolved",
+    "created_at": "2026-05-13T20:28:15.080690",
+    "factors": {
+      "amount": 1279.96,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0008",
+    "transaction_id": "TXN00433",
+    "customer_id": "CUST0034",
+    "customer_name": "Ashley Gordon",
+    "risk_score": 56,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-06-15T01:28:15.077706",
+    "factors": {
+      "amount": 4604.95,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0009",
+    "transaction_id": "TXN00831",
+    "customer_id": "CUST0077",
+    "customer_name": "Christopher Cunningham",
+    "risk_score": 77,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-07-13T21:28:15.081054",
+    "factors": {
+      "amount": 9372.8,
+      "location": "Nigeria",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0010",
+    "transaction_id": "TXN00378",
+    "customer_id": "CUST0074",
+    "customer_name": "Ashley Sweeney",
+    "risk_score": 32,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "resolved",
+    "created_at": "2026-05-12T15:28:15.077160",
+    "factors": {
+      "amount": 2475.28,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0011",
+    "transaction_id": "TXN00629",
+    "customer_id": "CUST0053",
+    "customer_name": "Kelly Lee",
+    "risk_score": 35,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "resolved",
+    "created_at": "2026-05-30T16:28:15.079273",
+    "factors": {
+      "amount": 3925.52,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0012",
+    "transaction_id": "TXN00191",
+    "customer_id": "CUST0010",
+    "customer_name": "Victoria Valdez",
+    "risk_score": 79,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "investigating",
+    "created_at": "2026-05-22T04:28:15.075701",
+    "factors": {
+      "amount": 6390.58,
+      "location": "Brazil",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0013",
+    "transaction_id": "TXN00445",
+    "customer_id": "CUST0018",
+    "customer_name": "Amanda Johnson",
+    "risk_score": 85,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-05-27T04:28:15.077780",
+    "factors": {
+      "amount": 5642.87,
+      "location": "India",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0014",
+    "transaction_id": "TXN00646",
+    "customer_id": "CUST0081",
+    "customer_name": "Darryl Davis",
+    "risk_score": 29,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-05-29T02:28:15.079392",
+    "factors": {
+      "amount": 4658.42,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0015",
+    "transaction_id": "TXN00437",
+    "customer_id": "CUST0069",
+    "customer_name": "Willie Henry",
+    "risk_score": 52,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-06-03T12:28:15.077729",
+    "factors": {
+      "amount": 6038.22,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0016",
+    "transaction_id": "TXN00096",
+    "customer_id": "CUST0080",
+    "customer_name": "Christina Barker",
+    "risk_score": 35,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-07-08T11:28:15.074754",
+    "factors": {
+      "amount": 3223.16,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0017",
+    "transaction_id": "TXN00042",
+    "customer_id": "CUST0076",
+    "customer_name": "Mr. Thomas Arias",
+    "risk_score": 36,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-07-01T03:28:15.074220",
+    "factors": {
+      "amount": 8979.61,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0018",
+    "transaction_id": "TXN00526",
+    "customer_id": "CUST0006",
+    "customer_name": "David Caldwell",
+    "risk_score": 3,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-25T23:28:15.078487",
+    "factors": {
+      "amount": 836.01,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0019",
+    "transaction_id": "TXN00350",
+    "customer_id": "CUST0093",
+    "customer_name": "Tiffany Fry",
+    "risk_score": 33,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "resolved",
+    "created_at": "2026-06-03T11:28:15.076959",
+    "factors": {
+      "amount": 4026.85,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0020",
+    "transaction_id": "TXN00475",
+    "customer_id": "CUST0027",
+    "customer_name": "Sheila Pollard",
+    "risk_score": 60,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-06-02T22:28:15.077974",
+    "factors": {
+      "amount": 6875.24,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0021",
+    "transaction_id": "TXN00693",
+    "customer_id": "CUST0027",
+    "customer_name": "Sheila Pollard",
+    "risk_score": 20,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-17T03:28:15.079918",
+    "factors": {
+      "amount": 1308.29,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0022",
+    "transaction_id": "TXN00230",
+    "customer_id": "CUST0012",
+    "customer_name": "Debra Cobb",
+    "risk_score": 36,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-03T18:28:15.075960",
+    "factors": {
+      "amount": 5442.8,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0023",
+    "transaction_id": "TXN00664",
+    "customer_id": "CUST0083",
+    "customer_name": "John Archer",
+    "risk_score": 51,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-06-18T00:28:15.079723",
+    "factors": {
+      "amount": 6901.34,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0024",
+    "transaction_id": "TXN00703",
+    "customer_id": "CUST0090",
+    "customer_name": "Rebecca Wright",
+    "risk_score": 37,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-07-17T18:28:15.079989",
+    "factors": {
+      "amount": 2153.46,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0025",
+    "transaction_id": "TXN00731",
+    "customer_id": "CUST0096",
+    "customer_name": "James Burns",
+    "risk_score": 67,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "resolved",
+    "created_at": "2026-06-04T09:28:15.080193",
+    "factors": {
+      "amount": 7676.77,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0026",
+    "transaction_id": "TXN00159",
+    "customer_id": "CUST0016",
+    "customer_name": "Micheal Young",
+    "risk_score": 55,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-07-27T11:28:15.075412",
+    "factors": {
+      "amount": 5725.29,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0027",
+    "transaction_id": "TXN00954",
+    "customer_id": "CUST0039",
+    "customer_name": "Kerry Lee",
+    "risk_score": 47,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-06-11T11:28:15.082118",
+    "factors": {
+      "amount": 2419.63,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0028",
+    "transaction_id": "TXN00508",
+    "customer_id": "CUST0029",
+    "customer_name": "David Scott",
+    "risk_score": 27,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "resolved",
+    "created_at": "2026-05-11T16:28:15.078232",
+    "factors": {
+      "amount": 1395.34,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0029",
+    "transaction_id": "TXN00540",
+    "customer_id": "CUST0028",
+    "customer_name": "Katherine Weaver",
+    "risk_score": 37,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-21T14:28:15.078655",
+    "factors": {
+      "amount": 9107.47,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0030",
+    "transaction_id": "TXN00645",
+    "customer_id": "CUST0005",
+    "customer_name": "Angela Dennis",
+    "risk_score": 27,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-22T01:28:15.079369",
+    "factors": {
+      "amount": 1284.28,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0031",
+    "transaction_id": "TXN00663",
+    "customer_id": "CUST0043",
+    "customer_name": "David Davidson",
+    "risk_score": 73,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "investigating",
+    "created_at": "2026-07-10T12:28:15.079716",
+    "factors": {
+      "amount": 7275.4,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0032",
+    "transaction_id": "TXN00538",
+    "customer_id": "CUST0035",
+    "customer_name": "Emily Edwards",
+    "risk_score": 24,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "resolved",
+    "created_at": "2026-06-05T14:28:15.078643",
+    "factors": {
+      "amount": 3396.03,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0033",
+    "transaction_id": "TXN00086",
+    "customer_id": "CUST0038",
+    "customer_name": "Kathryn Whitaker",
+    "risk_score": 40,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-07-08T14:28:15.074680",
+    "factors": {
+      "amount": 7357.63,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0034",
+    "transaction_id": "TXN00298",
+    "customer_id": "CUST0074",
+    "customer_name": "Ashley Sweeney",
+    "risk_score": 30,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-25T11:28:15.076616",
+    "factors": {
+      "amount": 1010.94,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0035",
+    "transaction_id": "TXN00480",
+    "customer_id": "CUST0074",
+    "customer_name": "Ashley Sweeney",
+    "risk_score": 70,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-06-09T16:28:15.078030",
+    "factors": {
+      "amount": 7940.05,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0036",
+    "transaction_id": "TXN00448",
+    "customer_id": "CUST0059",
+    "customer_name": "Paul Finley",
+    "risk_score": 41,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "resolved",
+    "created_at": "2026-08-03T04:28:15.077798",
+    "factors": {
+      "amount": 4727.56,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0037",
+    "transaction_id": "TXN00082",
+    "customer_id": "CUST0052",
+    "customer_name": "Luis Wright",
+    "risk_score": 74,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "investigating",
+    "created_at": "2026-07-10T10:28:15.074657",
+    "factors": {
+      "amount": 4227.39,
+      "location": "India",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0038",
+    "transaction_id": "TXN00929",
+    "customer_id": "CUST0022",
+    "customer_name": "Todd Woods",
+    "risk_score": 60,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "resolved",
+    "created_at": "2026-06-23T01:28:15.081949",
+    "factors": {
+      "amount": 5549.77,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0039",
+    "transaction_id": "TXN00821",
+    "customer_id": "CUST0017",
+    "customer_name": "Michael Powell",
+    "risk_score": 6,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "resolved",
+    "created_at": "2026-07-16T06:28:15.080982",
+    "factors": {
+      "amount": 612.28,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0040",
+    "transaction_id": "TXN00490",
+    "customer_id": "CUST0018",
+    "customer_name": "Amanda Johnson",
+    "risk_score": 58,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "resolved",
+    "created_at": "2026-08-02T07:28:15.078102",
+    "factors": {
+      "amount": 5218.69,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0041",
+    "transaction_id": "TXN00308",
+    "customer_id": "CUST0052",
+    "customer_name": "Luis Wright",
+    "risk_score": 8,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-07-29T06:28:15.076683",
+    "factors": {
+      "amount": 971.14,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0042",
+    "transaction_id": "TXN00153",
+    "customer_id": "CUST0023",
+    "customer_name": "Kirk Carter",
+    "risk_score": 68,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-06-24T04:28:15.075273",
+    "factors": {
+      "amount": 1667.47,
+      "location": "China",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0043",
+    "transaction_id": "TXN00131",
+    "customer_id": "CUST0062",
+    "customer_name": "Matthew Mendez",
+    "risk_score": 81,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "investigating",
+    "created_at": "2026-06-23T15:28:15.075018",
+    "factors": {
+      "amount": 9193.28,
+      "location": "UK",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0044",
+    "transaction_id": "TXN00701",
+    "customer_id": "CUST0042",
+    "customer_name": "Nancy Rose",
+    "risk_score": 8,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-08-03T13:28:15.079973",
+    "factors": {
+      "amount": 759.62,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0045",
+    "transaction_id": "TXN00925",
+    "customer_id": "CUST0057",
+    "customer_name": "Luis Matthews",
+    "risk_score": 44,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "resolved",
+    "created_at": "2026-07-16T09:28:15.081921",
+    "factors": {
+      "amount": 4094.32,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0046",
+    "transaction_id": "TXN00960",
+    "customer_id": "CUST0057",
+    "customer_name": "Luis Matthews",
+    "risk_score": 87,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "open",
+    "created_at": "2026-06-29T18:28:15.082158",
+    "factors": {
+      "amount": 8165.16,
+      "location": "Nigeria",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0047",
+    "transaction_id": "TXN00862",
+    "customer_id": "CUST0096",
+    "customer_name": "James Burns",
+    "risk_score": 42,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-08-04T15:28:15.081293",
+    "factors": {
+      "amount": 3960.02,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0048",
+    "transaction_id": "TXN00255",
+    "customer_id": "CUST0086",
+    "customer_name": "Amy Walker",
+    "risk_score": 42,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "resolved",
+    "created_at": "2026-06-22T15:28:15.076137",
+    "factors": {
+      "amount": 2488.53,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0049",
+    "transaction_id": "TXN00536",
+    "customer_id": "CUST0029",
+    "customer_name": "David Scott",
+    "risk_score": 15,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-05-20T16:28:15.078629",
+    "factors": {
+      "amount": 1850.13,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0050",
+    "transaction_id": "TXN00438",
+    "customer_id": "CUST0043",
+    "customer_name": "David Davidson",
+    "risk_score": 59,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-05-22T10:28:15.077735",
+    "factors": {
+      "amount": 1691.16,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0051",
+    "transaction_id": "TXN00303",
+    "customer_id": "CUST0066",
+    "customer_name": "Jesus Brown",
+    "risk_score": 37,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "investigating",
+    "created_at": "2026-06-11T01:28:15.076648",
+    "factors": {
+      "amount": 6620.77,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0052",
+    "transaction_id": "TXN00583",
+    "customer_id": "CUST0074",
+    "customer_name": "Ashley Sweeney",
+    "risk_score": 47,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-06-17T12:28:15.078957",
+    "factors": {
+      "amount": 5569.83,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0053",
+    "transaction_id": "TXN00049",
+    "customer_id": "CUST0077",
+    "customer_name": "Christopher Cunningham",
+    "risk_score": 43,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-06-07T17:28:15.074441",
+    "factors": {
+      "amount": 4342.19,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0054",
+    "transaction_id": "TXN00565",
+    "customer_id": "CUST0027",
+    "customer_name": "Sheila Pollard",
+    "risk_score": 49,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-07-15T09:28:15.078830",
+    "factors": {
+      "amount": 8565.77,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0055",
+    "transaction_id": "TXN00079",
+    "customer_id": "CUST0008",
+    "customer_name": "Michelle Moore",
+    "risk_score": 19,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "resolved",
+    "created_at": "2026-06-04T21:28:15.074638",
+    "factors": {
+      "amount": 927.84,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0056",
+    "transaction_id": "TXN00940",
+    "customer_id": "CUST0080",
+    "customer_name": "Christina Barker",
+    "risk_score": 37,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "investigating",
+    "created_at": "2026-06-27T18:28:15.082020",
+    "factors": {
+      "amount": 3938.91,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0057",
+    "transaction_id": "TXN00047",
+    "customer_id": "CUST0003",
+    "customer_name": "Ethan Adams",
+    "risk_score": 56,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "resolved",
+    "created_at": "2026-07-26T17:28:15.074428",
+    "factors": {
+      "amount": 9426.48,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0058",
+    "transaction_id": "TXN00983",
+    "customer_id": "CUST0025",
+    "customer_name": "Jennifer Hodges",
+    "risk_score": 60,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-06-27T23:28:15.082366",
+    "factors": {
+      "amount": 9296.02,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0059",
+    "transaction_id": "TXN00111",
+    "customer_id": "CUST0010",
+    "customer_name": "Victoria Valdez",
+    "risk_score": 27,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-05-22T23:28:15.074876",
+    "factors": {
+      "amount": 77.99,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0060",
+    "transaction_id": "TXN00523",
+    "customer_id": "CUST0089",
+    "customer_name": "Angela Willis",
+    "risk_score": 39,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-26T08:28:15.078326",
+    "factors": {
+      "amount": 786.87,
+      "location": "Nigeria",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0061",
+    "transaction_id": "TXN00436",
+    "customer_id": "CUST0012",
+    "customer_name": "Debra Cobb",
+    "risk_score": 54,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-06-09T23:28:15.077722",
+    "factors": {
+      "amount": 8721.71,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0062",
+    "transaction_id": "TXN00423",
+    "customer_id": "CUST0034",
+    "customer_name": "Ashley Gordon",
+    "risk_score": 70,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "resolved",
+    "created_at": "2026-06-13T22:28:15.077641",
+    "factors": {
+      "amount": 9388.72,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0063",
+    "transaction_id": "TXN00097",
+    "customer_id": "CUST0077",
+    "customer_name": "Christopher Cunningham",
+    "risk_score": 37,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-27T11:28:15.074761",
+    "factors": {
+      "amount": 2972.41,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0064",
+    "transaction_id": "TXN00476",
+    "customer_id": "CUST0042",
+    "customer_name": "Nancy Rose",
+    "risk_score": 18,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-30T16:28:15.077980",
+    "factors": {
+      "amount": 4413.31,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0065",
+    "transaction_id": "TXN00677",
+    "customer_id": "CUST0089",
+    "customer_name": "Angela Willis",
+    "risk_score": 44,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "resolved",
+    "created_at": "2026-05-25T18:28:15.079818",
+    "factors": {
+      "amount": 5333.29,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0066",
+    "transaction_id": "TXN00738",
+    "customer_id": "CUST0085",
+    "customer_name": "Amy Villarreal",
+    "risk_score": 21,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "resolved",
+    "created_at": "2026-06-15T01:28:15.080240",
+    "factors": {
+      "amount": 536.93,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0067",
+    "transaction_id": "TXN00949",
+    "customer_id": "CUST0009",
+    "customer_name": "Jennifer David",
+    "risk_score": 27,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "investigating",
+    "created_at": "2026-06-06T00:28:15.082075",
+    "factors": {
+      "amount": 530.33,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0068",
+    "transaction_id": "TXN00833",
+    "customer_id": "CUST0034",
+    "customer_name": "Ashley Gordon",
+    "risk_score": 63,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-05-11T09:28:15.081068",
+    "factors": {
+      "amount": 4728.9,
+      "location": "UK",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0069",
+    "transaction_id": "TXN00260",
+    "customer_id": "CUST0030",
+    "customer_name": "Perry Saunders",
+    "risk_score": 48,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-06-22T19:28:15.076171",
+    "factors": {
+      "amount": 1333.91,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0070",
+    "transaction_id": "TXN00364",
+    "customer_id": "CUST0074",
+    "customer_name": "Ashley Sweeney",
+    "risk_score": 70,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "investigating",
+    "created_at": "2026-07-01T15:28:15.077070",
+    "factors": {
+      "amount": 3112.72,
+      "location": "Brazil",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0071",
+    "transaction_id": "TXN00261",
+    "customer_id": "CUST0033",
+    "customer_name": "Kristen Willis",
+    "risk_score": 39,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "investigating",
+    "created_at": "2026-05-29T04:28:15.076176",
+    "factors": {
+      "amount": 9093.96,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0072",
+    "transaction_id": "TXN00600",
+    "customer_id": "CUST0059",
+    "customer_name": "Paul Finley",
+    "risk_score": 35,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-08-05T03:28:15.079087",
+    "factors": {
+      "amount": 2006.09,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0073",
+    "transaction_id": "TXN00084",
+    "customer_id": "CUST0074",
+    "customer_name": "Ashley Sweeney",
+    "risk_score": 12,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-07-22T10:28:15.074669",
+    "factors": {
+      "amount": 875.44,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0074",
+    "transaction_id": "TXN00788",
+    "customer_id": "CUST0023",
+    "customer_name": "Kirk Carter",
+    "risk_score": 1,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "investigating",
+    "created_at": "2026-07-02T16:28:15.080777",
+    "factors": {
+      "amount": 139.86,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0075",
+    "transaction_id": "TXN00516",
+    "customer_id": "CUST0057",
+    "customer_name": "Luis Matthews",
+    "risk_score": 26,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-05-25T07:28:15.078284",
+    "factors": {
+      "amount": 3405.02,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0076",
+    "transaction_id": "TXN00017",
+    "customer_id": "CUST0095",
+    "customer_name": "Anthony Rivera",
+    "risk_score": 39,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-07-27T17:28:15.074008",
+    "factors": {
+      "amount": 6842.11,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0077",
+    "transaction_id": "TXN00117",
+    "customer_id": "CUST0080",
+    "customer_name": "Christina Barker",
+    "risk_score": 31,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-07-06T11:28:15.074919",
+    "factors": {
+      "amount": 5596.33,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0078",
+    "transaction_id": "TXN00759",
+    "customer_id": "CUST0068",
+    "customer_name": "Alexis Clark",
+    "risk_score": 52,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-05-09T03:28:15.080393",
+    "factors": {
+      "amount": 3141.46,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0079",
+    "transaction_id": "TXN00678",
+    "customer_id": "CUST0044",
+    "customer_name": "Luis Bullock",
+    "risk_score": 60,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-06-26T03:28:15.079825",
+    "factors": {
+      "amount": 8779.69,
+      "location": "Germany",
+      "is_foreign": true,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0080",
+    "transaction_id": "TXN00474",
+    "customer_id": "CUST0088",
+    "customer_name": "Christine Parker",
+    "risk_score": 70,
+    "priority": "High",
+    "recommended_action": "Verify with Customer",
+    "status": "investigating",
+    "created_at": "2026-08-07T00:28:15.077968",
+    "factors": {
+      "amount": 6382.16,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0081",
+    "transaction_id": "TXN00184",
+    "customer_id": "CUST0028",
+    "customer_name": "Katherine Weaver",
+    "risk_score": 27,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-06T10:28:15.075661",
+    "factors": {
+      "amount": 1942.2,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0082",
+    "transaction_id": "TXN00806",
+    "customer_id": "CUST0048",
+    "customer_name": "Chad Richardson",
+    "risk_score": 15,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "resolved",
+    "created_at": "2026-07-04T19:28:15.080885",
+    "factors": {
+      "amount": 4188.26,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0083",
+    "transaction_id": "TXN00187",
+    "customer_id": "CUST0021",
+    "customer_name": "David Martinez",
+    "risk_score": 47,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-07-06T20:28:15.075678",
+    "factors": {
+      "amount": 924.23,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0084",
+    "transaction_id": "TXN00864",
+    "customer_id": "CUST0013",
+    "customer_name": "Richard Graham",
+    "risk_score": 91,
+    "priority": "Critical",
+    "recommended_action": "Freeze Card",
+    "status": "open",
+    "created_at": "2026-06-01T04:28:15.081307",
+    "factors": {
+      "amount": 3194.16,
+      "location": "Nigeria",
+      "is_foreign": true,
+      "new_device": true,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0085",
+    "transaction_id": "TXN00403",
+    "customer_id": "CUST0033",
+    "customer_name": "Kristen Willis",
+    "risk_score": 63,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-05-20T17:28:15.077502",
+    "factors": {
+      "amount": 6078.45,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0086",
+    "transaction_id": "TXN00944",
+    "customer_id": "CUST0080",
+    "customer_name": "Christina Barker",
+    "risk_score": 53,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-07-29T04:28:15.082045",
+    "factors": {
+      "amount": 1937.78,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0087",
+    "transaction_id": "TXN00968",
+    "customer_id": "CUST0053",
+    "customer_name": "Kelly Lee",
+    "risk_score": 37,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-14T13:28:15.082231",
+    "factors": {
+      "amount": 1732.04,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0088",
+    "transaction_id": "TXN00427",
+    "customer_id": "CUST0077",
+    "customer_name": "Christopher Cunningham",
+    "risk_score": 33,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "investigating",
+    "created_at": "2026-05-26T06:28:15.077666",
+    "factors": {
+      "amount": 5537.52,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0089",
+    "transaction_id": "TXN00898",
+    "customer_id": "CUST0077",
+    "customer_name": "Christopher Cunningham",
+    "risk_score": 52,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-07-28T21:28:15.081745",
+    "factors": {
+      "amount": 7779.93,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0090",
+    "transaction_id": "TXN00722",
+    "customer_id": "CUST0010",
+    "customer_name": "Victoria Valdez",
+    "risk_score": 42,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "resolved",
+    "created_at": "2026-07-30T04:28:15.080128",
+    "factors": {
+      "amount": 3318.94,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 5
+    }
+  },
+  {
+    "alert_id": "ALERT0091",
+    "transaction_id": "TXN00305",
+    "customer_id": "CUST0095",
+    "customer_name": "Anthony Rivera",
+    "risk_score": 31,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-07-17T14:28:15.076663",
+    "factors": {
+      "amount": 5320.77,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0092",
+    "transaction_id": "TXN00322",
+    "customer_id": "CUST0038",
+    "customer_name": "Kathryn Whitaker",
+    "risk_score": 55,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-05-23T02:28:15.076771",
+    "factors": {
+      "amount": 3334.24,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0093",
+    "transaction_id": "TXN00602",
+    "customer_id": "CUST0086",
+    "customer_name": "Amy Walker",
+    "risk_score": 30,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-24T13:28:15.079101",
+    "factors": {
+      "amount": 1751.26,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0094",
+    "transaction_id": "TXN00742",
+    "customer_id": "CUST0050",
+    "customer_name": "Caleb Hernandez",
+    "risk_score": 21,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-04T17:28:15.080266",
+    "factors": {
+      "amount": 3533.19,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 1
+    }
+  },
+  {
+    "alert_id": "ALERT0095",
+    "transaction_id": "TXN00466",
+    "customer_id": "CUST0005",
+    "customer_name": "Angela Dennis",
+    "risk_score": 42,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "resolved",
+    "created_at": "2026-07-16T21:28:15.077914",
+    "factors": {
+      "amount": 3485.79,
+      "location": "UK",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0096",
+    "transaction_id": "TXN00776",
+    "customer_id": "CUST0025",
+    "customer_name": "Jennifer Hodges",
+    "risk_score": 15,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "open",
+    "created_at": "2026-06-05T03:28:15.080696",
+    "factors": {
+      "amount": 4151.8,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0097",
+    "transaction_id": "TXN00687",
+    "customer_id": "CUST0011",
+    "customer_name": "Kristina Rodriguez",
+    "risk_score": 42,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "investigating",
+    "created_at": "2026-08-05T22:28:15.079882",
+    "factors": {
+      "amount": 3695.19,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0098",
+    "transaction_id": "TXN00461",
+    "customer_id": "CUST0098",
+    "customer_name": "Keith Aguilar",
+    "risk_score": 44,
+    "priority": "Medium",
+    "recommended_action": "Monitor Account",
+    "status": "open",
+    "created_at": "2026-05-13T00:28:15.077884",
+    "factors": {
+      "amount": 5955.39,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 2
+    }
+  },
+  {
+    "alert_id": "ALERT0099",
+    "transaction_id": "TXN00639",
+    "customer_id": "CUST0046",
+    "customer_name": "Eric Sanders",
+    "risk_score": 16,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "investigating",
+    "created_at": "2026-06-29T18:28:15.079333",
+    "factors": {
+      "amount": 3427.25,
+      "location": "USA",
+      "is_foreign": false,
+      "new_device": false,
+      "failed_login_attempts": 0
+    }
+  },
+  {
+    "alert_id": "ALERT0100",
+    "transaction_id": "TXN00828",
+    "customer_id": "CUST0077",
+    "customer_name": "Christopher Cunningham",
+    "risk_score": 25,
+    "priority": "Low",
+    "recommended_action": "No Action Required",
+    "status": "resolved",
+    "created_at": "2026-06-07T02:28:15.081030",
+    "factors": {
+      "amount": 1209.84,
+      "location": "Mexico",
+      "is_foreign": false,
+      "new_device": true,
+      "failed_login_attempts": 0
+    }
+  }
+]

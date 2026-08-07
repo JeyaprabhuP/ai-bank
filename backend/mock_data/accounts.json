@@ -1,0 +1,1114 @@
+[
+  {
+    "account_id": "GB85TZJW46657437489691",
+    "customer_id": "CUST0001",
+    "account_type": "savings",
+    "balance": 68701.09,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB71AQVL89944171545444",
+    "customer_id": "CUST0002",
+    "account_type": "checking",
+    "balance": 4394.95,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB98GEQY30965207446660",
+    "customer_id": "CUST0002",
+    "account_type": "credit_card",
+    "balance": 71078.74,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB93SWSG53875842824172",
+    "customer_id": "CUST0003",
+    "account_type": "checking",
+    "balance": 14219.81,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB29XIXZ82513534655494",
+    "customer_id": "CUST0004",
+    "account_type": "savings",
+    "balance": 18247.15,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB76ODPB99917381684602",
+    "customer_id": "CUST0005",
+    "account_type": "checking",
+    "balance": 14077.69,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB52EGKN97252175250074",
+    "customer_id": "CUST0006",
+    "account_type": "savings",
+    "balance": 22615.74,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB26GYYF92712966667600",
+    "customer_id": "CUST0007",
+    "account_type": "savings",
+    "balance": 36013.34,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB47RGXL05830033542168",
+    "customer_id": "CUST0008",
+    "account_type": "credit_card",
+    "balance": 56292.87,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB80SJFC04478985625753",
+    "customer_id": "CUST0008",
+    "account_type": "savings",
+    "balance": 13242.25,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB02FZMA33230982150648",
+    "customer_id": "CUST0009",
+    "account_type": "checking",
+    "balance": 82343.43,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB86TBTB10016761847230",
+    "customer_id": "CUST0010",
+    "account_type": "credit_card",
+    "balance": 46132.37,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB76JNVD84992618914117",
+    "customer_id": "CUST0010",
+    "account_type": "credit_card",
+    "balance": 26725.05,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB63GTGY48356420873753",
+    "customer_id": "CUST0011",
+    "account_type": "credit_card",
+    "balance": 40579.35,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB66AAVC19721811437447",
+    "customer_id": "CUST0012",
+    "account_type": "checking",
+    "balance": 4929.08,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB34BDFB45561100225579",
+    "customer_id": "CUST0012",
+    "account_type": "credit_card",
+    "balance": 6901.46,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB26IXCL52166746762120",
+    "customer_id": "CUST0013",
+    "account_type": "checking",
+    "balance": 50618.48,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB20FDNS79729659027716",
+    "customer_id": "CUST0014",
+    "account_type": "checking",
+    "balance": 34380.54,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB27OBCI50899358891637",
+    "customer_id": "CUST0014",
+    "account_type": "credit_card",
+    "balance": 21003.68,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB41LVVU62890028772175",
+    "customer_id": "CUST0015",
+    "account_type": "checking",
+    "balance": 52685.49,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB42HKIB83866317797177",
+    "customer_id": "CUST0015",
+    "account_type": "savings",
+    "balance": 55910.98,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB16KDPX01660880199488",
+    "customer_id": "CUST0016",
+    "account_type": "credit_card",
+    "balance": 26959.8,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB90GUVO55037589975711",
+    "customer_id": "CUST0016",
+    "account_type": "savings",
+    "balance": 17441.61,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB44YVHA55488510272614",
+    "customer_id": "CUST0017",
+    "account_type": "savings",
+    "balance": 20364.44,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB81TGGD63735160917798",
+    "customer_id": "CUST0017",
+    "account_type": "savings",
+    "balance": 11211.57,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB19EPAQ08697829221699",
+    "customer_id": "CUST0018",
+    "account_type": "savings",
+    "balance": 38918.37,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB03KQMN93465472269848",
+    "customer_id": "CUST0018",
+    "account_type": "checking",
+    "balance": 890.88,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB88KWXR33394522885158",
+    "customer_id": "CUST0019",
+    "account_type": "credit_card",
+    "balance": 84668.59,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB87PSSV68460810620034",
+    "customer_id": "CUST0019",
+    "account_type": "checking",
+    "balance": 45745.16,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB37YZFJ42043805719838",
+    "customer_id": "CUST0020",
+    "account_type": "savings",
+    "balance": 11345.56,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB41MHQZ40666580043973",
+    "customer_id": "CUST0020",
+    "account_type": "savings",
+    "balance": 74885.37,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB22UWWU59893347212281",
+    "customer_id": "CUST0021",
+    "account_type": "savings",
+    "balance": 24295.43,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB62MBNI84229405720259",
+    "customer_id": "CUST0022",
+    "account_type": "credit_card",
+    "balance": 59830.54,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB65BYUT47985158328182",
+    "customer_id": "CUST0023",
+    "account_type": "credit_card",
+    "balance": 45007.06,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB08NRRM15335554398780",
+    "customer_id": "CUST0023",
+    "account_type": "credit_card",
+    "balance": 69472.14,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB47DVLO39930561648408",
+    "customer_id": "CUST0024",
+    "account_type": "credit_card",
+    "balance": 8894.49,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB85YLQZ87704358112880",
+    "customer_id": "CUST0025",
+    "account_type": "savings",
+    "balance": 9899.89,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB97UCGV36138612075011",
+    "customer_id": "CUST0026",
+    "account_type": "credit_card",
+    "balance": 47068.69,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB97BFZI81934667665061",
+    "customer_id": "CUST0027",
+    "account_type": "savings",
+    "balance": 51450.05,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB96RAUX91901581449147",
+    "customer_id": "CUST0028",
+    "account_type": "savings",
+    "balance": 17385.41,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB62MMVA72832684245088",
+    "customer_id": "CUST0028",
+    "account_type": "credit_card",
+    "balance": 72512.3,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB87EDBA99688143536822",
+    "customer_id": "CUST0029",
+    "account_type": "savings",
+    "balance": 21420.19,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB28FHTI31290878141413",
+    "customer_id": "CUST0029",
+    "account_type": "checking",
+    "balance": 7936.14,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB88XSPK52314913577594",
+    "customer_id": "CUST0030",
+    "account_type": "savings",
+    "balance": 3842.97,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB68WSES95562053364525",
+    "customer_id": "CUST0031",
+    "account_type": "checking",
+    "balance": 54190.93,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB09POOL47812914283411",
+    "customer_id": "CUST0032",
+    "account_type": "checking",
+    "balance": 63030.5,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB81AQUA99693084887256",
+    "customer_id": "CUST0033",
+    "account_type": "credit_card",
+    "balance": 36410.62,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB47HYSX42788165803928",
+    "customer_id": "CUST0033",
+    "account_type": "checking",
+    "balance": 9598.09,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB90EOFF99275037314530",
+    "customer_id": "CUST0034",
+    "account_type": "checking",
+    "balance": 46420.62,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB83VGQZ56770051844989",
+    "customer_id": "CUST0034",
+    "account_type": "savings",
+    "balance": 49555.06,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB30FMUM59184638655779",
+    "customer_id": "CUST0035",
+    "account_type": "savings",
+    "balance": 10920.12,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB13AQEO23184322259136",
+    "customer_id": "CUST0036",
+    "account_type": "savings",
+    "balance": 76423.53,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB74ZKXD77739260302992",
+    "customer_id": "CUST0037",
+    "account_type": "savings",
+    "balance": 17935.5,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB58EUQB92024286990413",
+    "customer_id": "CUST0038",
+    "account_type": "credit_card",
+    "balance": 8827.18,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB52OTPP23692929842579",
+    "customer_id": "CUST0039",
+    "account_type": "savings",
+    "balance": 82778.76,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB96SCHM62103886291279",
+    "customer_id": "CUST0039",
+    "account_type": "credit_card",
+    "balance": 13221.58,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB92TBZR81172980686508",
+    "customer_id": "CUST0040",
+    "account_type": "checking",
+    "balance": 82979.89,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB95NHZP65991624731498",
+    "customer_id": "CUST0041",
+    "account_type": "savings",
+    "balance": 2204.36,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB91NIGA09818063565126",
+    "customer_id": "CUST0042",
+    "account_type": "savings",
+    "balance": 66524.61,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB33USII86959463688725",
+    "customer_id": "CUST0042",
+    "account_type": "savings",
+    "balance": 68209.76,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB93RRPI49562137213865",
+    "customer_id": "CUST0043",
+    "account_type": "checking",
+    "balance": 22751.8,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB83ZRTW02601279611435",
+    "customer_id": "CUST0043",
+    "account_type": "credit_card",
+    "balance": 9277.32,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB46CTBX66984902770384",
+    "customer_id": "CUST0044",
+    "account_type": "savings",
+    "balance": 18984.62,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB98GBZT88392053021465",
+    "customer_id": "CUST0045",
+    "account_type": "savings",
+    "balance": 26010.7,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB49VMMS38011848955439",
+    "customer_id": "CUST0046",
+    "account_type": "checking",
+    "balance": 2109.11,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB07GOMS04268181845184",
+    "customer_id": "CUST0047",
+    "account_type": "savings",
+    "balance": 27969.44,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB02RZSI76973577907141",
+    "customer_id": "CUST0048",
+    "account_type": "savings",
+    "balance": 29912.31,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB59MUZH35658804341651",
+    "customer_id": "CUST0049",
+    "account_type": "savings",
+    "balance": 57791.09,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB77RFPK53942373334333",
+    "customer_id": "CUST0049",
+    "account_type": "credit_card",
+    "balance": 28214.62,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB78HTLE11179080759579",
+    "customer_id": "CUST0050",
+    "account_type": "checking",
+    "balance": 74560.56,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB59IPFY84639208678085",
+    "customer_id": "CUST0051",
+    "account_type": "checking",
+    "balance": 49392.07,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB69MVYF71875003691559",
+    "customer_id": "CUST0052",
+    "account_type": "checking",
+    "balance": 9303.38,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB95IFRI34795527636556",
+    "customer_id": "CUST0053",
+    "account_type": "savings",
+    "balance": 61953.48,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB98IOFS29314386632270",
+    "customer_id": "CUST0054",
+    "account_type": "savings",
+    "balance": 51567.13,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB63FNPE88574489061203",
+    "customer_id": "CUST0055",
+    "account_type": "checking",
+    "balance": 32803.09,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB39IPUD75455884506159",
+    "customer_id": "CUST0055",
+    "account_type": "credit_card",
+    "balance": 16237.69,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB61GSSU82455877169472",
+    "customer_id": "CUST0056",
+    "account_type": "credit_card",
+    "balance": 37121.28,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB14FUZK69961125355449",
+    "customer_id": "CUST0057",
+    "account_type": "credit_card",
+    "balance": 58414.17,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB19UMIO59876220234132",
+    "customer_id": "CUST0057",
+    "account_type": "credit_card",
+    "balance": 62674.5,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB22MDDC78006811492164",
+    "customer_id": "CUST0058",
+    "account_type": "savings",
+    "balance": 36717.15,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB05HHXJ72282005577848",
+    "customer_id": "CUST0059",
+    "account_type": "savings",
+    "balance": 53005.89,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB20OEWR29979688457831",
+    "customer_id": "CUST0059",
+    "account_type": "credit_card",
+    "balance": 72096.5,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB74OJLN42400825478077",
+    "customer_id": "CUST0060",
+    "account_type": "savings",
+    "balance": 43154.7,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB86JAYN49308536866326",
+    "customer_id": "CUST0060",
+    "account_type": "credit_card",
+    "balance": 34772.56,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB76MHIC63894484631224",
+    "customer_id": "CUST0061",
+    "account_type": "credit_card",
+    "balance": 25201.13,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB16DUOT74973502080214",
+    "customer_id": "CUST0062",
+    "account_type": "checking",
+    "balance": 35795.89,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB55IEWO03120735647570",
+    "customer_id": "CUST0063",
+    "account_type": "credit_card",
+    "balance": 63616.62,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB07KCYE04618723460136",
+    "customer_id": "CUST0064",
+    "account_type": "credit_card",
+    "balance": 48417.04,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB93YOHX03718376452088",
+    "customer_id": "CUST0065",
+    "account_type": "credit_card",
+    "balance": 70883.27,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB54DIPU43503136502491",
+    "customer_id": "CUST0066",
+    "account_type": "savings",
+    "balance": 17944.51,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB63MZHA09792513271950",
+    "customer_id": "CUST0067",
+    "account_type": "credit_card",
+    "balance": 55684.51,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB28BLUE81273585730652",
+    "customer_id": "CUST0067",
+    "account_type": "savings",
+    "balance": 37607.63,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB65IBPW78487392855749",
+    "customer_id": "CUST0068",
+    "account_type": "checking",
+    "balance": 43498.67,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB28RFCQ27448570862095",
+    "customer_id": "CUST0068",
+    "account_type": "credit_card",
+    "balance": 14506.8,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB42YTHK18638782945651",
+    "customer_id": "CUST0069",
+    "account_type": "savings",
+    "balance": 43861.88,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB77DQVC02203173109678",
+    "customer_id": "CUST0070",
+    "account_type": "credit_card",
+    "balance": 28557.48,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB64TWSI05391037170586",
+    "customer_id": "CUST0070",
+    "account_type": "checking",
+    "balance": 57220.35,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB43LZWB94801413811386",
+    "customer_id": "CUST0071",
+    "account_type": "checking",
+    "balance": 12610.35,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB34GGQV39288619576122",
+    "customer_id": "CUST0072",
+    "account_type": "checking",
+    "balance": 83636.17,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB76RMQK28975585566593",
+    "customer_id": "CUST0073",
+    "account_type": "checking",
+    "balance": 38764.83,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB52SRGM84577600490824",
+    "customer_id": "CUST0073",
+    "account_type": "credit_card",
+    "balance": 48974.46,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB27AJHG50488899210752",
+    "customer_id": "CUST0074",
+    "account_type": "credit_card",
+    "balance": 32699.77,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB18EILS33441969315727",
+    "customer_id": "CUST0074",
+    "account_type": "savings",
+    "balance": 20814.28,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB22WWSD94096105566139",
+    "customer_id": "CUST0075",
+    "account_type": "credit_card",
+    "balance": 570.76,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB59AUYU60480589258320",
+    "customer_id": "CUST0075",
+    "account_type": "checking",
+    "balance": 66187.89,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB34VXMO99813646225179",
+    "customer_id": "CUST0076",
+    "account_type": "checking",
+    "balance": 68368.93,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB45XBRM41686227837693",
+    "customer_id": "CUST0077",
+    "account_type": "credit_card",
+    "balance": 39540.29,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB29RTXQ33146591166553",
+    "customer_id": "CUST0077",
+    "account_type": "credit_card",
+    "balance": 21256.93,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB04KLTU04259792703352",
+    "customer_id": "CUST0078",
+    "account_type": "savings",
+    "balance": 11420.49,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB27YXCD03924051477053",
+    "customer_id": "CUST0079",
+    "account_type": "credit_card",
+    "balance": 45193.1,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB34XRGG88487920698042",
+    "customer_id": "CUST0080",
+    "account_type": "credit_card",
+    "balance": 27038.6,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB60BJGZ94070164510463",
+    "customer_id": "CUST0080",
+    "account_type": "savings",
+    "balance": 52114.18,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB93MQWD57981238780038",
+    "customer_id": "CUST0081",
+    "account_type": "credit_card",
+    "balance": 36330.29,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB20JKPM20555438404608",
+    "customer_id": "CUST0081",
+    "account_type": "credit_card",
+    "balance": 37958.07,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB27IHEK62168936392649",
+    "customer_id": "CUST0082",
+    "account_type": "credit_card",
+    "balance": 73240.92,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB20KORE32983248262925",
+    "customer_id": "CUST0083",
+    "account_type": "savings",
+    "balance": 63925.85,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB23CRRX12520566474231",
+    "customer_id": "CUST0084",
+    "account_type": "savings",
+    "balance": 65117.58,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB02EFAY99499939330517",
+    "customer_id": "CUST0084",
+    "account_type": "credit_card",
+    "balance": 41242.29,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB51EQTP52677223306046",
+    "customer_id": "CUST0085",
+    "account_type": "savings",
+    "balance": 37445.18,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB11HXVG31279757366096",
+    "customer_id": "CUST0086",
+    "account_type": "savings",
+    "balance": 20008.5,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB42XKMT99880817703886",
+    "customer_id": "CUST0086",
+    "account_type": "savings",
+    "balance": 27243.34,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB40XBRM80347644726490",
+    "customer_id": "CUST0087",
+    "account_type": "checking",
+    "balance": 11847.96,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB64WQEO71812982665702",
+    "customer_id": "CUST0087",
+    "account_type": "checking",
+    "balance": 32619.7,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB66OSWG71452111751868",
+    "customer_id": "CUST0088",
+    "account_type": "credit_card",
+    "balance": 18264.6,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB06TFMR60259222206447",
+    "customer_id": "CUST0089",
+    "account_type": "savings",
+    "balance": 28191.83,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB61JUFD23094077780973",
+    "customer_id": "CUST0090",
+    "account_type": "savings",
+    "balance": 5386.36,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB24GSVP76719903849830",
+    "customer_id": "CUST0091",
+    "account_type": "savings",
+    "balance": 76920.79,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB65FEBU50209945101622",
+    "customer_id": "CUST0092",
+    "account_type": "credit_card",
+    "balance": 1758.26,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB60VJTV99827950145561",
+    "customer_id": "CUST0092",
+    "account_type": "credit_card",
+    "balance": 32394.35,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB30YNRC47214586833901",
+    "customer_id": "CUST0093",
+    "account_type": "savings",
+    "balance": 25452.21,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB82SXUQ17946954899529",
+    "customer_id": "CUST0094",
+    "account_type": "savings",
+    "balance": 45794.93,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB92SPQX77293430107139",
+    "customer_id": "CUST0095",
+    "account_type": "credit_card",
+    "balance": 68008.81,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB42NNBK58303441448850",
+    "customer_id": "CUST0095",
+    "account_type": "checking",
+    "balance": 41550.68,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB48DVKK69902355770272",
+    "customer_id": "CUST0096",
+    "account_type": "savings",
+    "balance": 41331.01,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB22UORK76084958803955",
+    "customer_id": "CUST0097",
+    "account_type": "savings",
+    "balance": 56887.37,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB83CEIA56829962914504",
+    "customer_id": "CUST0098",
+    "account_type": "credit_card",
+    "balance": 14112.3,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB93NCPH57438421503178",
+    "customer_id": "CUST0099",
+    "account_type": "checking",
+    "balance": 83363.3,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB42AZPQ23578452182307",
+    "customer_id": "CUST0100",
+    "account_type": "checking",
+    "balance": 77098.26,
+    "currency": "USD",
+    "status": "active"
+  },
+  {
+    "account_id": "GB55MWQD04091570184094",
+    "customer_id": "CUST0100",
+    "account_type": "credit_card",
+    "balance": 48016.88,
+    "currency": "USD",
+    "status": "active"
+  }
+]
